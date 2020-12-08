@@ -6,8 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <title>BoostMNL</title>
 
-  <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@400;500;700;800;900&display=swap"
-  rel="stylesheet" />
+<link rel="stylesheet" href="https://use.typekit.net/ndg3gzq.css">
 <link rel="stylesheet" href="css/main.css" />
 
 </head>
@@ -18,29 +17,54 @@
           <div class="main-header__content">
             <nav class="main-header__title">
               <a class="main-header__title-logo" href="index.html">
-                <img src="img/logo-boost-mnl.png" alt="CABA Live（キャバライブ）"  loading="lazy"/>
+                <img src="img/logo-boost-mnl.png" alt="BoostMNL Logo"  loading="lazy"/>
               </a>
             </nav>
     
             <nav class="main-header__menu">
               <ul>
-                <li><a href="index.html">Who We Are</a></li>
-                <li><a href="index.html">What We Do</a></li>
-                <li><a href="index.html">What We Offer</a></li>
-                <li><a href="index.html">Blog</a></li>
+                <li><a href="index.html">WHO WE ARE</a></li>
+                <li><a href="index.html">WHAT WE DO</a></li>
+                <li><a href="index.html">WHAT WE OFFER</a></li>
+                <li><a href="index.html">BLOG</a></li>
               </ul>
             </nav>
     
-            <nav class="main-header__notif main-header__notif--only-desktop">
+            <nav class="main-header__contact main-header__contact--only-desktop">
               <ul>
                 <li>
-                  <a class="main-header__notif-btn main-header__notif-btn--green" href="#"><img
-                      class="main-header__notif-icon" src="img/contact-us.svg" /></a>
+                  <a class="main-header__contact-btn main-header__contact-btn--green" href="#">
+                    <img class="main-header__contact-icon" src="img/contact-us.svg"/></a>
                 </li>
               </ul>
             </nav>
           </div>
         </header>
+
+        <!-- NAVI FOR MOBILE -->
+      <div id="mb-nav-wrp">
+        <input type="checkbox" id="mb-nav-tgl">
+        <label for="mb-nav-tgl" class="mb-nav-open"><span></span></label>
+        <label for="mb-nav-tgl" class="mb-nav-close"></label>
+        <nav class="mb-nav">
+          <ul class="main-nav">
+            <li><a href="index.html">WHO WE ARE</a></li>
+            <li><a href="index.html">WHAT WE DO</a></li>
+            <li><a href="index.html">WHAT WE OFFER</a></li>
+            <li><a href="index.html">BLOG</a></li>
+          </ul>
+          
+          <ul>
+            <li>
+              <a class="main-header__contact-btn main-header__contact-btn--green" href="#"><img
+                  class="main-header__contact-icon" src="img/contact-us.svg" /></a>
+            </li>
+          </ul>
+          
+        </nav>
+      </div>
+      <!-- / NAVI FOR MOBILE -->
+
     </div> <!-- page-container -->
 </body>
 </html> 
