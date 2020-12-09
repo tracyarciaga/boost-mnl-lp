@@ -171,7 +171,7 @@ select {
     order: 2;
     background-position: 0 2rem;
     justify-content: center;
-    background-size: 115%;
+    background-size: 120%;
     margin-top: -7rem;
     z-index: -1;
   }
@@ -189,7 +189,7 @@ select {
   }
 
   .home-page__blurb-content {
-    margin-top: 7.2rem;
+    margin-top: 7rem;
     margin-left: 4em;
     margin-bottom: 9.1rem;
   }
