@@ -121,6 +121,12 @@ select {
   height: 70px;
 }
 
+.intro__blurb-learn {
+  padding-top: 1.5rem;
+  width: 30%;
+  cursor: pointer;
+}
+
 @media only screen and (min-width: 1420px) {
   .home-page__banner {
     background-image: url("../img/home-page-intro-2x.png");
@@ -163,22 +169,29 @@ select {
 
   .home-page__blurb {
     order: 2;
-    background-position: -2rem 2rem;
+    background-position: 0 2rem;
     justify-content: center;
     background-size: 100%;
     margin-top: -7rem;
     z-index: -1;
   }
 
+  .intro__blurb-learn {
+    padding-top: 1rem;
+    width: 35%;
+  }
+  
   .intro__blurb-header--regular {
-    font-size: 2em;
+    font-size: 2.2em;
   }
   .intro__blurb-header--orange {
-    font-size: 2em;
+    font-size: 2.2em;
   }
 
   .home-page__blurb-content {
     margin-top: 8rem;
+    margin-left: 4em;
+    margin-bottom: 4rem;
   }
 }
 
