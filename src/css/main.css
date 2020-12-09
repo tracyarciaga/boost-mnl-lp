@@ -136,10 +136,10 @@ select {
 @media only screen and (max-width: 767px) {
 
   #blue-ellipse {
-    margin-top: 60%;
-    margin-left: 8%;
-    width: 90px;
-    width: 90px;
+    margin-top: 13rem;
+    margin-left: 2.5rem;
+    width: 80px;
+    height: 80px;
   }
 
   #yellow-donut {
@@ -150,8 +150,8 @@ select {
   }
 
   #yellow-donut img {
-    width: 90px;
-    width: 90px;
+    width: 80px;
+    height: 80px;
   }
 
   .home-page__intro {
