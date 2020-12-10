@@ -4,6 +4,10 @@ html {
   font-size: 20px;
 }
 
+h1,h2,h3,h4,h5,h6 {
+  font-weight: normal;
+  font-style: inherit;
+}
 * {
   margin: 0;
   padding: 0;
@@ -49,8 +53,9 @@ select {
 
 .home-page__intro {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
+
 
 .home-page__banner {
   align-self: center;
@@ -64,6 +69,7 @@ select {
 }
 
 .home-page__blurb {
+  position: relative;
   width: 100%;
   /* border: 1px solid black; */
   background-position: -7rem -7rem;
@@ -113,12 +119,14 @@ select {
   display: none;
 }
 
+#yellow-donut {
+  display: none;
+}
+
 #blue-ellipse {
-  position: absolute;
-  margin-top: 35%;
-  margin-left: 40%;
-  width: 8%;
-  height: 70px;
+  display: none;
+  width: 80px;
+  height: 80px;
 }
 
 .intro__blurb-learn {
@@ -127,32 +135,44 @@ select {
   cursor: pointer;
 }
 
-@media only screen and (min-width: 1420px) {
+@media only screen and (min-width: 1024px) {
+  .home-page__intro {
+    flex-direction: row;
+  }
+
   .home-page__banner {
     background-image: url("../img/home-page-intro-2x.png");
   }
+
+  #blue-ellipse {
+    display: block;
+    position: absolute;
+    margin-top: 25rem;
+    margin-left: 29rem;
+  }
+
 }
 
 @media only screen and (max-width: 767px) {
 
   #blue-ellipse {
-    margin-top: 13rem;
+    position: absolute;
+    margin-top: -6.5rem;
     margin-left: 2.5rem;
     width: 80px;
     height: 80px;
+    display: block;
   }
 
   #yellow-donut {
     position: absolute;
-    top: 7rem;
+    top: -13rem;
     left: -2rem;
     display: block;
-  }
-
-  #yellow-donut img {
     width: 80px;
     height: 80px;
   }
+
 
   .home-page__intro {
     display: flex;
@@ -169,7 +189,7 @@ select {
 
   .home-page__blurb {
     order: 2;
-    background-position: 0 2rem;
+    background-position: -2rem 2rem;
     justify-content: center;
     background-size: 120%;
     margin-top: -6rem;
@@ -192,6 +212,126 @@ select {
     margin-top: 7rem;
     margin-left: 4em;
     margin-bottom: 9.1rem;
+  }
+}
+
+.home-page__company {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-page__company-banner {
+  position: relative;
+  justify-content: center;
+  display: flex;
+  width: 100%;
+  /* border: 1px solid black; */
+  padding: 4rem 0;
+}
+
+.home-page__company-blurb {
+  position: relative;
+  width: 100%;
+  background-color: #FBFAFA;
+  padding: 8rem 4rem;
+}
+
+.company__blurb-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.company__blurb-content h2 {
+  display: flex;
+  flex-direction: column;
+  padding-top: 2rem;
+}
+
+.company__blurb-content .who-we-are {
+  color: rgba(47, 47, 47, 1);
+  font-weight: bold;
+}
+
+.company__blurb-description {
+  padding-top: 20px;
+  width: 100%;
+  line-height: 1.6em;
+  font-size: 0.87em;
+  color: #2F2F2F;
+}
+
+.company__blurb-header--regular {
+  font-size: 1.5em;
+  color: rgba(67, 67, 67, 1);
+}
+
+.company__blurb-header--orange {
+  color: #FF5B2A;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+#black-ellipse {
+  position: absolute;
+  top: 2rem;
+  left: 27.5rem;
+  width: 120px;
+  height: 120px;
+  z-index: -1;
+}
+
+#semi-circle-company {
+  position: absolute;
+  top: 26rem;
+  left: 0;
+  width: 190px;
+  z-index: -1;
+}
+
+@media only screen and (min-width: 1024px) {
+  .home-page__company {
+    flex-direction: row;
+  }
+  .home-page__company-banner {
+    width: 60%;
+  }
+  .home-page__company-blurb { 
+    width: 40%;
+  }
+  .home-page__company-banner #office {
+    margin-right: 7.5rem;
+  }
+  #black-ellipse {
+    top: 2rem;
+    left: 27.5rem;
+    width: 120px;
+    height: 120px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .home-page__company-blurb {
+    padding: 6rem 4rem;
+  }
+  .home-page__company-banner {
+    margin-top: -11rem;
+  }
+  .home-page__company-banner #office {
+    width: 80%;
+    height: 80%;
+  }
+  #black-ellipse {
+    top: 1rem;
+    left: 82%;
+    width: 120px;
+    height: 120px;
+  }
+  #semi-circle-company {
+    top: 17.55rem;
+    left: 0;
+    width: 150px;
   }
 }
 
@@ -310,7 +450,6 @@ select {
   flex-direction: column;
   align-items: center;
   justify-content: flex-end;
-  padding: 1rem 0.6rem;
   /* background-color: #F09A9D; */
 }
 
@@ -327,7 +466,6 @@ select {
 }
 @media only screen and (min-width: 1420px) {
   .main-header__contact {
-    font-size: 0.70rem;
     padding: 0;
   }
 }
@@ -366,7 +504,6 @@ select {
 
 }
 .main-header__contact-button {
-  margin-right: 0.5rem;
   width: 150px;
   height: 48px;
 }
