@@ -333,6 +333,14 @@ select {
     left: 0;
     width: 150px;
   }
+  .company__blurb-header--regular {
+    font-size: 1em;
+  }
+  
+  .company__blurb-header--orange {
+    font-size: 1em;
+  }
+  
 }
 
 .main-header {
