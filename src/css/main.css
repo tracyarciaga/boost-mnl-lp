@@ -313,7 +313,7 @@ select {
 
 @media only screen and (max-width: 767px) {
   .home-page__company-blurb {
-    padding: 6rem 4rem;
+    padding: 4rem 2rem;
   }
   .home-page__company-banner {
     margin-top: -11rem;
@@ -334,11 +334,11 @@ select {
     width: 150px;
   }
   .company__blurb-header--regular {
-    font-size: 1em;
+    font-size: 0.8em;
   }
   
   .company__blurb-header--orange {
-    font-size: 1em;
+    font-size: 0.8em;
   }
   
 }
