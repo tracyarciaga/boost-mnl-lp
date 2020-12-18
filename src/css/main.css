@@ -162,6 +162,44 @@ select {
 
 }
 
+
+/* iPad Pro Portrait */
+@media only screen and (min-device-width: 1024px) and (max-device-height: 1366px) and (-webkit-min-device-pixel-ratio: 2)  and (orientation: portrait)  {
+  .home-page__blurb {
+    background-position: -5rem -0.8rem;
+    justify-content: center;
+    background-size: 120%;
+    margin-top: -6rem;
+    z-index: -1;
+    width: 50%;
+  }
+
+  .home-page__blurb-content {
+    margin-left: 2.5em;
+    margin-top: 10rem;
+    width: 60%;
+  }
+
+  .home-page__banner { 
+    width: 50%;
+  }
+
+  .home-page__banner img  { 
+    width: 100%;
+  }
+
+  #blue-ellipse {
+    position: absolute;
+    margin-top: 22em;
+    margin-left: 20em;
+    width: 80px;
+    height: 80px;
+    display: block;
+  }
+
+
+}
+
 @media only screen and (max-width: 767px) {
   #shape-blue-black {
     display: none;
@@ -309,10 +347,10 @@ select {
     flex-direction: row;
   }
   .home-page__company-banner {
-    width: 60%;
+    width: 55%;
   }
   .home-page__company-blurb { 
-    width: 40%;
+    width: 45%;
   }
   .home-page__company-banner #office {
     margin-right: 7.5rem;
@@ -322,6 +360,23 @@ select {
     left: 27.5rem;
     width: 120px;
     height: 120px;
+  }
+}
+
+/* iPad Pro Portrait */
+@media only screen and (min-device-width: 1024px) and (max-device-height: 1366px) and (-webkit-min-device-pixel-ratio: 2)  and (orientation: portrait)  {
+
+  .home-page__company-banner #office {
+    margin-right: 0;
+  }
+
+  #black-ellipse {
+    position: absolute;
+    top: 0.5em;
+    left: 21.8em;
+    width: 120px;
+    height: 120px;
+    z-index: -1;
   }
 }
 
@@ -424,10 +479,12 @@ select {
     justify-content: flex-end;
     padding-bottom: 8rem;
   }
+
   .home-page__services-banner {
     width: 60%;
     justify-content: flex-end;
   }
+  
   .home-page__services-blurb { 
     width: 40%;
   }
@@ -472,6 +529,47 @@ select {
     width: 100px;
     display: block;
     z-index: 2;
+  }
+
+}
+
+/* iPad Pro Portrait */
+@media only screen and (min-device-width: 1024px) and (max-device-height: 1366px) and (-webkit-min-device-pixel-ratio: 2)  and (orientation: portrait)  {
+  .home-page__services-banner > img {
+    width: 100%;
+    margin-top: -4.5em;
+  }
+  
+  .home-page__services {
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+  
+  .services__blurb-content {
+    padding-top: 4em;
+  }
+
+  #pic-laptop {
+    position: absolute;
+    margin-right: 7rem;
+    margin-top: 12rem;
+    width: 23%;
+  }
+
+  #pic-hands {
+    position: absolute;
+    margin-right: 17rem;
+    margin-top: 14rem;
+    width: 20%;
+  }
+
+  #blue-ellipse-in-services {
+    position: absolute;
+    margin-right: 26rem;
+    margin-top: 12rem;
+    width: 80px;
+    height: 80px;
+    display: block;
   }
 
 }
@@ -667,7 +765,22 @@ select {
     width: 50%;
   }
 
+  .home-page__product-carousel {
+    width: 80%;
+  }
   
+}
+
+
+/* iPad Pro Portrait */
+@media only screen and (min-device-width: 1024px) and (max-device-height: 1366px) and (-webkit-min-device-pixel-ratio: 2)  and (orientation: portrait)  {
+  .home-page__product-banner {
+    width: 55%;
+  }
+
+  .home-page__product-blurb {
+    width: 45%;
+  }
 }
 
 @media only screen and (max-width: 767px) {
