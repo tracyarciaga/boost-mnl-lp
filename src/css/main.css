@@ -768,6 +768,11 @@ select {
   .home-page__product-carousel {
     width: 80%;
   }
+
+  .product__blurb-content { 
+    width: 80%;
+    padding-left: 2em;
+  }
   
 }
 
@@ -781,6 +786,15 @@ select {
   .home-page__product-blurb {
     width: 45%;
   }
+
+  .home-page__product-carousel > img {
+    width: 100%;
+  }
+
+  .home-page__product-blurb { 
+    padding: 4rem 0;
+  }
+    
 }
 
 @media only screen and (max-width: 767px) {
@@ -1155,6 +1169,24 @@ select {
   }
 }
 
+/* iPad Pro Portrait */
+@media only screen and (min-device-width: 1024px) and (max-device-height: 1366px) and (-webkit-min-device-pixel-ratio: 2)  and (orientation: portrait)  {
+
+  #shape-adj-ellipse {
+    margin-bottom: -0.8rem;
+    margin-left: -4.30rem;
+  }
+
+  .main-footer__title-back {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 100em;
+    right: 0;
+  }
+}
 @media only screen and (max-width: 767px) {
   .home-page__contact-banner {
     order: 2;
