@@ -304,6 +304,7 @@ select {
 .company__blurb-content .who-we-are {
   color: rgba(47, 47, 47, 1);
   font-weight: bold;
+  font-family: 'Montserrat';
 }
 
 .company__blurb-description {
@@ -452,6 +453,7 @@ select {
 .services__blurb-content .what-we-do {
   color: rgba(47, 47, 47, 1);
   font-weight: bold;
+  font-family: 'Montserrat';
 }
 
 .services__blurb-description {
@@ -706,6 +708,7 @@ select {
 .product__blurb-content .what-we-offer {
   color: rgba(47, 47, 47, 1);
   font-weight: bold;
+  font-family: 'Montserrat';
 }
 
 .product__blurb-description {
