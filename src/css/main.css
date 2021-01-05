@@ -41,15 +41,16 @@ select {
   outline: none;
 }
 
+.page-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .home-page__container {
   max-width: 1420px;
   margin: 0 auto;
 }
 
-.page-container {
-  display: flex;
-  flex-wrap: wrap;
-}
 
 .home-page__intro {
   display: flex;
@@ -153,7 +154,7 @@ select {
 
   #shape-blue-black {
     position: absolute;
-    bottom: -3.15rem;
+    bottom: -9.6vh;
     right: 0;
     display: block;
     width: 11%;
@@ -279,8 +280,6 @@ select {
   justify-content: center;
   display: flex;
   width: 100%;
-  /* border: 1px solid black; */
-  padding: 4rem 0;
 }
 
 .home-page__company-blurb {
@@ -328,7 +327,7 @@ select {
 
 #black-ellipse {
   position: absolute;
-  top: 2rem;
+  top: -2vw;
   left: 27.5rem;
   width: 120px;
   height: 120px;
@@ -337,7 +336,7 @@ select {
 
 #semi-circle-company {
   position: absolute;
-  top: 26rem;
+  bottom: -7vh;
   left: 0;
   width: 190px;
   z-index: -1;
@@ -354,10 +353,10 @@ select {
     width: 45%;
   }
   .home-page__company-banner #office {
-    margin-right: 7.5rem;
+    margin-right: 5vw;
   }
   #black-ellipse {
-    top: 2rem;
+    top: -3vw;
     left: 27.5rem;
     width: 120px;
     height: 120px;
@@ -951,12 +950,19 @@ select {
   margin-right: 0;
 }
 
-#blog-teal-ellipse {
+
+#blog-teal-ellipse  {
   position: absolute;
   top: 80px;
-  right: -50px;
-  width: 80px;
+  right: 0;
+  overflow: hidden;
 }
+
+#blog-teal-ellipse > img {
+  width: 80px;
+  margin-right: -50px;
+}
+
 
 #blog-yellow-donut {
   position: absolute;
@@ -1516,7 +1522,7 @@ select {
 #mb-nav-wrp .mb-nav .main-nav li a {
   text-align: center;
   line-height: 1;
-  padding-top: 80px;
+  padding-top: 50px;
   font-size: 16px;
   display: block;
   text-decoration: none;
@@ -1524,7 +1530,7 @@ select {
 }
 
 #mb-nav-wrp .mb-nav .main-nav li:last-of-type {
-  padding-bottom: 100px;
+  padding-bottom: 50px;
 }
 
 #mb-nav-wrp #mb-nav-tgl:checked ~ .mb-nav {
@@ -1540,6 +1546,8 @@ select {
     margin-top: 89px;
   }
 }
+
+/* main footer */
 
 .main-footer {
   bottom: 0;
