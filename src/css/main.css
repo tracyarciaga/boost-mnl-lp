@@ -61,7 +61,6 @@ select {
 .home-page__banner {
   align-self: center;
   width: 100%;
-  /* border: 1px solid black; */
   justify-content: center;
   order: 2;
   background-image: url("../img/home-page-intro.png");
@@ -164,8 +163,135 @@ select {
 }
 
 
+/* ----------- iPad Pro 10.5" ----------- */
+/* Landscape */
+/* Declare the same value for min- and max-width to avoid colliding with desktops */
+/* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
+@media only screen 
+  and (min-device-width: 1112px) 
+  and (max-device-width: 1112px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .home-page__intro {
+      flex-direction: row;
+    }
+  
+    .home-page__blurb {
+      background-size: 125%;
+    }
+
+    .home-page__banner {
+      margin-top: 7vh;
+    }
+
+    .home-page__banner > img {
+      width: 100%;
+    }
+  
+    .home-page__blurb-content {
+      margin-left: 2.7em;
+      margin-top: 8em;
+      width: 60%;
+    }
+
+    #blue-ellipse {
+      display: block;
+      position: absolute;
+      width: 60px;
+      height: 60px;
+      margin-top: 22em;
+      margin-left: 20em;
+    }
+  
+    #shape-blue-black {
+      position: absolute;
+      bottom: -7vh;
+      right: 0;
+      display: block;
+      width: 11%;
+      z-index: 2;
+    }
+
+    .intro__blurb-description {
+      font-size: 0.7em;
+    }
+
+    .intro__blurb-header--regular {
+      font-size: 2em;
+    }
+
+    .intro__blurb-header--orange {
+      font-size: 2em;
+    }
+}
+
+/* ----------- iPad Pro 10.5" ----------- */
+/* Portrait */
+@media only screen 
+  and (min-device-width: 834px) 
+  and (max-device-width: 834px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .home-page__intro {
+      flex-direction: row;
+    }
+  
+    .home-page__blurb {
+      background-size: 135%;
+    }
+
+    .home-page__banner {
+      margin-top: 7vh;
+    }
+
+    .home-page__banner > img {
+      width: 100%;
+    }
+  
+    .home-page__blurb-content {
+      margin-left: 2em;
+      margin-top: 8em;
+      width: 60%;
+    }
+
+    #blue-ellipse {
+      display: block;
+      position: absolute;
+      width: 60px;
+      height: 60px;
+      margin-top: 16em;
+      margin-left: 15em;
+    }
+  
+    #shape-blue-black {
+      position: absolute;
+      bottom: -4vh;
+      right: 0;
+      display: block;
+      width: 11%;
+      z-index: 2;
+    }
+
+    .intro__blurb-description {
+      font-size: 0.6em;
+    }
+
+    .intro__blurb-header--regular {
+      font-size: 1.5em;
+    }
+
+    .intro__blurb-header--orange {
+      font-size: 1.5em;
+    }
+
+}
+
 /* iPad Pro Portrait */
-@media only screen and (min-device-width: 1024px) and (max-device-height: 1366px) and (-webkit-min-device-pixel-ratio: 2)  and (orientation: portrait)  {
+@media only screen 
+  and (min-device-width: 1024px) 
+  and (max-device-height: 1366px) 
+  and (-webkit-min-device-pixel-ratio: 2) 
+  and (orientation: portrait) {
   .home-page__blurb {
     background-position: -5rem -0.8rem;
     justify-content: center;
@@ -363,6 +489,132 @@ select {
   }
 }
 
+/* ----------- iPad Pro 10.5" ----------- */
+/* Landscape */
+/* Declare the same value for min- and max-width to avoid colliding with desktops */
+/* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
+@media only screen 
+  and (min-device-width: 1112px) 
+  and (max-device-width: 1112px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .home-page__company {
+      flex-direction: row;
+    }
+    .home-page__company-banner {
+      width: 53%;
+    }
+    .home-page__company-blurb { 
+      width: 47%;
+      padding: 8rem 4rem;
+    }
+    .home-page__company-banner #office {
+      margin-right: 1vw;
+      width: 70%
+    }
+    #black-ellipse {
+      top: -4vw;
+      left: 40vw;
+      width: 100px;
+      height: 100px;
+    }
+
+    .company__blurb-content {
+      width: 75%;
+    }
+    .company__blurb-content .who-we-are {
+      font-size: 0.87em;
+    }
+
+    .company__blurb-description {
+      font-size: 0.65em;
+    }
+
+    .company__blurb-content h2 {
+      padding-top: 1.5vh;
+      font-size: 1em;
+    }
+
+    .company__blurb-header--regular {
+      font-size: 1.6em;
+    }
+
+    .company__blurb-header--orange {
+      font-size: 1.6em;
+    }
+
+    
+    #semi-circle-company {
+      position: absolute;
+      bottom: -3.5vh;
+      left: 0;
+      width: 140px;
+      z-index: -1;
+    }
+}
+
+/* ----------- iPad Pro 10.5" ----------- */
+/* Portrait */
+@media only screen 
+  and (min-device-width: 834px) 
+  and (max-device-width: 834px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+    
+    .home-page__company {
+      flex-direction: row;
+    }
+    .home-page__company-banner {
+      width: 53%;
+    }
+    .home-page__company-blurb { 
+      width: 47%;
+      padding: 6rem 4rem;
+    }
+    .home-page__company-banner #office {
+      margin-right: 1vw;
+      width: 70%
+    }
+    #black-ellipse {
+      top: -4vw;
+      left: 40vw;
+      width: 100px;
+      height: 100px;
+    }
+
+    .company__blurb-content .who-we-are {
+      font-size: 0.77em;
+    }
+
+    .company__blurb-description {
+      font-size: 0.6em;
+    }
+
+    .company__blurb-content h2 {
+      padding-top: 1.5vh;
+      font-size: 1em;
+    }
+
+    .company__blurb-header--regular {
+      font-size: 1.5em;
+      color: rgba(67, 67, 67, 1);
+    }
+
+    .company__blurb-header--orange {
+      color: #FF5B2A;
+      font-weight: bold;
+      font-size: 1.5em;
+    }
+
+    
+    #semi-circle-company {
+      position: absolute;
+      bottom: -3.5vh;
+      left: 0;
+      width: 140px;
+      z-index: -1;
+    }
+}
 /* iPad Pro Portrait */
 @media only screen and (min-device-width: 1024px) and (max-device-height: 1366px) and (-webkit-min-device-pixel-ratio: 2)  and (orientation: portrait)  {
 
@@ -534,6 +786,193 @@ select {
 
 }
 
+
+/* ----------- iPad Pro 10.5" ----------- */
+/* Landscape */
+/* Declare the same value for min- and max-width to avoid colliding with desktops */
+/* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
+@media only screen 
+  and (min-device-width: 1112px) 
+  and (max-device-width: 1112px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .home-page__services {
+      flex-direction: row;
+      justify-content: flex-end;
+      padding-bottom: 6rem;
+    }
+  
+    .home-page__services-banner {
+      width: 55%;
+      justify-content: flex-end;
+    }
+    
+    .home-page__services-blurb { 
+      width: 45%;
+    }
+        
+    .services__blurb-content {
+      width: 80%;
+    }
+    .services__blurb-content h2 {
+      padding-top: 1.5vh;
+      font-size: 1em;
+    }
+    
+    .services__blurb-content .what-we-do {
+      font-size: 0.87em;
+    }
+    
+    .services__blurb-description {
+      font-size: 0.65em;
+    }
+    
+    .services__blurb-header--regular {
+      font-size: 1.6em;
+    }
+
+    .services__blurb-header--orange {
+      font-size: 1.6em;
+    }
+  
+    #paper-planes {
+      width: 100%;
+    }
+
+    #pic-laptop {
+      position: absolute;
+      margin-right: 6rem;
+      margin-top: 15.5rem;
+      width: 30%;
+    }
+  
+    #pic-hands {
+      position: absolute;
+      margin-right: 17rem;
+      margin-top: 18.5rem;
+      width: 25%;
+    }
+  
+    #blue-ellipse-in-services {
+      position: absolute;
+      margin-right: 25rem;
+      margin-top: 17rem;
+      width: 55px;
+      height: 55px;
+      display: block;
+    }
+  
+    #shape-quarter-donut {
+      position: absolute;
+      bottom: 0;
+      left:0;
+      width: 10%;
+      display: block;
+    }
+  
+    #shape-pink-donut {
+      position: absolute;
+      bottom: 0;
+      right:0;
+      margin-bottom: -2.5rem;
+      margin-right: 2.5rem;
+      width: 100px;
+      display: block;
+      z-index: 2;
+    }
+}
+/* ----------- iPad Pro 10.5" ----------- */
+/* Portrait */
+@media only screen 
+  and (min-device-width: 834px) 
+  and (max-device-width: 834px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .home-page__services {
+      flex-direction: row;
+      justify-content: flex-end;
+      padding-bottom: 6rem;
+    }
+  
+    .home-page__services-banner {
+      width: 55%;
+      justify-content: flex-end;
+    }
+    
+    .home-page__services-blurb { 
+      width: 45%;
+    }
+        
+    .services__blurb-content h2 {
+      padding-top: 1.5vh;
+      font-size: 1em;
+    }
+    
+    .services__blurb-content .what-we-do {
+      font-size: 0.77em;
+    }
+    
+    .services__blurb-description {
+      font-size: 0.6em;
+    }
+    
+    .services__blurb-header--regular {
+      font-size: 1.3em;
+      color: rgba(67, 67, 67, 1);
+    }
+
+    .services__blurb-header--orange {
+      color: #FF5B2A;
+      font-weight: bold;
+      font-size: 1.3em;
+    }
+  
+    #paper-planes {
+      width: 100%;
+    }
+
+    #pic-laptop {
+      position: absolute;
+      margin-right: 5rem;
+      margin-top: 12rem;
+      width: 30%;
+    }
+  
+    #pic-hands {
+      position: absolute;
+      margin-right: 14rem;
+      margin-top: 14rem;
+      width: 25%;
+    }
+  
+    #blue-ellipse-in-services {
+      position: absolute;
+      margin-right: 20rem;
+      margin-top: 12rem;
+      width: 55px;
+      height: 55px;
+      display: block;
+    }
+  
+    #shape-quarter-donut {
+      position: absolute;
+      bottom: 0;
+      left:0;
+      width: 10%;
+      display: block;
+    }
+  
+    #shape-pink-donut {
+      position: absolute;
+      bottom: 0;
+      right:0;
+      margin-bottom: -2.5rem;
+      margin-right: 2.5rem;
+      width: 100px;
+      display: block;
+      z-index: 2;
+    }
+}
 /* iPad Pro Portrait */
 @media only screen and (min-device-width: 1024px) and (max-device-height: 1366px) and (-webkit-min-device-pixel-ratio: 2)  and (orientation: portrait)  {
   .home-page__services-banner > img {
@@ -778,6 +1217,162 @@ select {
   
 }
 
+@media only screen 
+  and (min-device-width: 1112px) 
+  and (max-device-width: 1112px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .home-page__product-carousel #button {
+      width: 120px; 
+      font-family: "Acumin Pro";
+    }
+  
+    .home-page__product-carousel .button {
+      align-self: flex-end;
+      margin-right: 2rem;
+      cursor: pointer;
+      font-family: "Acumin Pro";
+    }
+
+    .carousel__header .text {
+      align-self: center;
+      font-weight: 100;
+      font-size: 0.76em;
+    }
+
+    .home-page__product {
+      flex-direction: row;
+    }
+  
+    .home-page__product-banner {
+      width: 55%;
+    }
+  
+    .home-page__product-blurb {
+      width: 45%;
+      padding: 4rem 2rem;
+    }
+  
+    .home-page__product-carousel {
+      width: 80%;
+    }
+
+
+    .home-page__product-carousel > img {
+      width: 100%;
+    }
+  
+    .product__blurb-content { 
+      width: 70%;
+      padding-left: 2em;
+    }
+
+    .product__blurb-content h2 {
+      padding-top: 1.5vh;
+      font-size: 1em;
+    }
+    
+    .product__blurb-content .what-we-offer {
+      font-size: 0.87em;
+    }
+    
+    .product__blurb-description {
+      font-size: 0.65em;
+    }
+    
+    .product__blurb-header--regular {
+      font-size: 1.6em;
+    }
+    
+    .product__blurb-header--orange {
+      font-size: 1.6em;
+    }
+    
+    #shape-blue-yellow {
+      bottom: -9rem;
+      right: 0;
+      width: 150px;
+    }
+}
+/* ----------- iPad Pro 10.5" ----------- */
+/* Portrait */
+@media only screen 
+  and (min-device-width: 834px) 
+  and (max-device-width: 834px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .home-page__product-carousel #button {
+      width: 120px; 
+      font-family: "Acumin Pro";
+    }
+  
+    .home-page__product-carousel .button {
+      align-self: flex-end;
+      margin-right: 2rem;
+      cursor: pointer;
+      font-family: "Acumin Pro";
+    }
+
+    .carousel__header .text {
+      align-self: center;
+      font-weight: 100;
+      font-size: 0.76em;
+    }
+
+    .home-page__product {
+      flex-direction: row;
+    }
+  
+    .home-page__product-banner {
+      width: 55%;
+    }
+  
+    .home-page__product-blurb {
+      width: 45%;
+      padding: 4rem 2rem;
+    }
+  
+    .home-page__product-carousel {
+      width: 80%;
+    }
+
+
+    .home-page__product-carousel > img {
+      width: 100%;
+    }
+  
+    .product__blurb-content { 
+      width: 100%;
+      padding-left: 2em;
+    }
+
+    .product__blurb-content h2 {
+      padding-top: 1.5vh;
+      font-size: 1em;
+    }
+    
+    .product__blurb-content .what-we-offer {
+      font-size: 0.77em;
+    }
+    
+    .product__blurb-description {
+      font-size: 0.6em;
+    }
+    
+    .product__blurb-header--regular {
+      font-size: 1.3em;
+    }
+    
+    .product__blurb-header--orange {
+      font-size: 1.3em;
+    }
+    
+    #shape-blue-yellow {
+      bottom: -6.5rem;
+      right: 0;
+      width: 150px;
+    }
+}
 
 /* iPad Pro Portrait */
 @media only screen and (min-device-width: 1024px) and (max-device-height: 1366px) and (-webkit-min-device-pixel-ratio: 2)  and (orientation: portrait)  {
@@ -1114,7 +1709,7 @@ select {
   justify-self: center;
 }
 
-.page__contact-content .what-we-offer {
+.page__contact-content .contact-us {
   color: rgba(47, 47, 47, 1);
   font-weight: bold;
 }
@@ -1136,6 +1731,18 @@ select {
   color: #FF5B2A;
   font-weight: bold;
   font-size: 1.5em;
+}
+
+.contact__blurb-content {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+
+.contact__blurb-content .contact-us {
+  color: rgba(47, 47, 47, 1);
+  font-weight: bold;
+  font-family: 'Montserrat';
 }
 
 #shape-adj-ellipse {
@@ -1161,6 +1768,165 @@ select {
   left: 0;
   z-index: 1;
   width: 20%;
+}
+
+/* ----------- iPad Pro 10.5" ----------- */
+/* Landscape */
+@media only screen 
+  and (min-device-width: 1112px) 
+  and (max-device-width: 1112px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .home-page__contact {
+      flex-direction: row;
+    }
+  
+    .home-page__contact-banner {
+      width: 55%;
+    }
+  
+    .home-page__contact-blurb {
+      width: 45%;
+    }
+
+    .page__contact-content {
+      width: 100%;
+    }
+
+    .page__contact-content h2 {
+      padding-top: 1.5vh;
+      font-size: 1em;
+    }
+
+    .page__contact-content .contact-us {
+      font-size: 0.77em;
+    }
+    
+    .page__contact-description {
+      font-size: 0.6em;
+    }
+    
+    .page__contact-header--regular {
+      font-size: 1.3em;
+    }
+    
+    .page__contact-header--orange {
+      font-size: 1.3em;
+    }
+
+    .page__contact-form {
+      padding: 2rem;
+    }
+
+    .form-row {
+      margin-bottom: 5px;
+    }
+
+    .form-row input[type='text'], .form-row textarea  {
+      width: 270px;
+      font-size: 12px;
+    }
+
+    .form-row label {
+      font-size: 10px;
+      margin-top: 10px;
+      margin-bottom: 5px;
+    }
+
+    #shape-adj-ellipse {
+      bottom: 0;
+      left: 0;
+      margin-bottom: -1.7em;
+      margin-left: -5em;
+      width: 40%;
+    }
+
+    #shape-ellipse-blue {
+      top: 0;
+      left: -4em;
+      z-index: 1;
+      width: 45%;
+    }
+
+}
+/* ----------- iPad Pro 10.5" ----------- */
+/* Portrait */
+@media only screen 
+  and (min-device-width: 834px) 
+  and (max-device-width: 834px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .home-page__contact {
+      flex-direction: row;
+    }
+  
+    .home-page__contact-banner {
+      width: 55%;
+    }
+  
+    .home-page__contact-blurb {
+      width: 45%;
+    }
+
+    .page__contact-content {
+      width: 100%;
+    }
+
+    .page__contact-content h2 {
+      padding-top: 1.5vh;
+      font-size: 1em;
+    }
+
+    .page__contact-content .contact-us {
+      font-size: 0.77em;
+    }
+    
+    .page__contact-description {
+      font-size: 0.6em;
+    }
+    
+    .page__contact-header--regular {
+      font-size: 1.3em;
+    }
+    
+    .page__contact-header--orange {
+      font-size: 1.3em;
+    }
+
+    .page__contact-form {
+      padding: 2rem;
+    }
+
+    .form-row {
+      margin-bottom: 5px;
+    }
+
+    .form-row input[type='text'], .form-row textarea  {
+      width: 250px;
+      font-size: 12px;
+    }
+
+    .form-row label {
+      font-size: 10px;
+      margin-top: 10px;
+      margin-bottom: 5px;
+    }
+
+    #shape-adj-ellipse {
+      bottom: 0;
+      left: 0;
+      margin-bottom: -1.1em;
+      margin-left: -3.75em;
+      width: 40%;
+    }
+
+    #shape-ellipse-blue {
+      top: 0;
+      left: -4em;
+      z-index: 1;
+      width: 45%;
+    }
+    
 }
 
 @media only screen and (min-width: 1024px) {
@@ -1302,7 +2068,7 @@ select {
   justify-content: flex-start;
   /* background-color: #F5CF8E; */
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 835px) {
   .main-header__menu {
     display: block;
   }
@@ -1433,7 +2199,7 @@ select {
 #mb-nav-wrp {
   display: none;
 }
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 834px) {
   #mb-nav-wrp {
     display: block;
   }
@@ -1624,7 +2390,6 @@ select {
   bottom: 0;
   right: 0;
   margin-bottom: 1rem;
-  border: 1px solid black;
   display: none;
 }
 
