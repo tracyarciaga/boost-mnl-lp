@@ -555,7 +555,7 @@ select {
     }
     .home-page__company-banner #office {
       margin-right: 1vw;
-      width: 70%
+      width: 400px;
     }
     #black-ellipse {
       top: -4vw;
@@ -619,7 +619,7 @@ select {
     }
     .home-page__company-banner #office {
       margin-right: 1vw;
-      width: 70%
+      width: 300px;
     }
     #black-ellipse {
       top: -4vw;
@@ -875,7 +875,7 @@ select {
     }
   
     #paper-planes {
-      width: 100%;
+      width: 650px;
     }
 
     #pic-laptop {
@@ -968,7 +968,7 @@ select {
     }
   
     #paper-planes {
-      width: 100%;
+      width: 450px;
     }
 
     #pic-laptop {
