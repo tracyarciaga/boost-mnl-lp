@@ -168,8 +168,8 @@ select {
 /* Declare the same value for min- and max-width to avoid colliding with desktops */
 /* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
 @media only screen 
-  and (min-device-width: 1080px) 
-  and (max-device-width: 1080px) 
+  and (min-device-width: 834px) 
+  and (max-device-height: 1112px) 
   and (orientation: landscape) 
   and (-webkit-min-device-pixel-ratio: 2) {
     .home-page__intro {
@@ -230,7 +230,7 @@ select {
 /* Portrait */
 @media only screen 
   and (min-device-width: 834px) 
-  and (max-device-width: 834px) 
+  and (max-device-height: 1112px) 
   and (orientation: portrait) 
   and (-webkit-min-device-pixel-ratio: 2) {
     .home-page__intro {
@@ -496,8 +496,8 @@ select {
 /* Declare the same value for min- and max-width to avoid colliding with desktops */
 /* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
 @media only screen 
-  and (min-device-width: 1080px) 
-  and (max-device-width: 1080px) 
+  and (min-device-width: 834px) 
+  and (max-device-height: 1112px) 
   and (orientation: landscape) 
   and (-webkit-min-device-pixel-ratio: 2) {
     .home-page__company {
@@ -560,7 +560,7 @@ select {
 /* Portrait */
 @media only screen 
   and (min-device-width: 834px) 
-  and (max-device-width: 834px) 
+  and (max-device-height: 1112px) 
   and (orientation: portrait) 
   and (-webkit-min-device-pixel-ratio: 2) {
     
@@ -796,8 +796,8 @@ select {
 /* Declare the same value for min- and max-width to avoid colliding with desktops */
 /* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
 @media only screen 
-  and (min-device-width: 1080px) 
-  and (max-device-width: 1080px) 
+  and (min-device-width: 834px) 
+  and (max-device-height: 1112px) 
   and (orientation: landscape) 
   and (-webkit-min-device-pixel-ratio: 2) {
     .home-page__services {
@@ -890,7 +890,7 @@ select {
 /* Portrait */
 @media only screen 
   and (min-device-width: 834px) 
-  and (max-device-width: 834px) 
+  and (max-device-height: 1112px) 
   and (orientation: portrait) 
   and (-webkit-min-device-pixel-ratio: 2) {
     .home-page__services {
@@ -1224,8 +1224,8 @@ select {
 }
 
 @media only screen 
-  and (min-device-width: 1080px) 
-  and (max-device-width: 1080px) 
+  and (min-device-width: 834px) 
+  and (max-device-height: 1112px) 
   and (orientation: landscape) 
   and (-webkit-min-device-pixel-ratio: 2) {
     .home-page__product-carousel #button {
@@ -1305,7 +1305,7 @@ select {
 /* Portrait */
 @media only screen 
   and (min-device-width: 834px) 
-  and (max-device-width: 834px) 
+  and (max-device-height: 1112px) 
   and (orientation: portrait) 
   and (-webkit-min-device-pixel-ratio: 2) {
     .home-page__product-carousel #button {
@@ -1781,8 +1781,8 @@ select {
 /* ----------- iPad Pro 10.5" ----------- */
 /* Landscape */
 @media only screen 
-  and (min-device-width: 1080px) 
-  and (max-device-width: 1080px) 
+  and (min-device-width: 834px) 
+  and (max-device-height: 1112px) 
   and (orientation: landscape) 
   and (-webkit-min-device-pixel-ratio: 2) {
     .home-page__contact {
@@ -1862,7 +1862,7 @@ select {
 /* Portrait */
 @media only screen 
   and (min-device-width: 834px) 
-  and (max-device-width: 834px) 
+  and (max-device-height: 1112px) 
   and (orientation: portrait) 
   and (-webkit-min-device-pixel-ratio: 2) {
     .home-page__contact {
