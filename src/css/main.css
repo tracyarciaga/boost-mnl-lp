@@ -209,7 +209,7 @@ select {
   and (-webkit-min-device-pixel-ratio: 2) {
     .home-page__intro {
       flex-direction: row;
-      border: 1px solid pink
+      
     }
   
     .home-page__blurb {
@@ -608,7 +608,7 @@ select {
     
     .home-page__company {
       flex-direction: row;
-      border: 1px solid pink
+      
     }
     .home-page__company-banner {
       width: 53%;
@@ -697,6 +697,7 @@ select {
   }
   .home-page__company-banner #office {
     margin-right: 5vw;
+    width: 500px;
   }
 
   .company__blurb-content .who-we-are {
@@ -931,7 +932,6 @@ select {
       flex-direction: row;
       justify-content: flex-end;
       padding-bottom: 6rem;
-      border: 1px solid pink
     }
   
     .home-page__services-banner {
@@ -1095,6 +1095,10 @@ select {
   
   .services__blurb-header--orange {
     font-size: 1.8em;
+  }
+
+  #paper-planes {
+    width: 900px;
   }
 
   #pic-laptop {
@@ -1421,7 +1425,7 @@ select {
 
     .home-page__product {
       flex-direction: row;
-      border: 1px solid pink
+      
     }
   
     .home-page__product-banner {
@@ -2016,7 +2020,7 @@ select {
   and (-webkit-min-device-pixel-ratio: 2) {
     .home-page__contact {
       flex-direction: row;
-      border: 1px solid pink
+      
     }
   
     .home-page__contact-banner {
