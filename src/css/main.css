@@ -23,7 +23,7 @@ ul {
   list-style-type: none;
 }
 body {
-  font-family: "Acumin Pro", sans-serif;
+  font-family: acumin-pro, sans-serif;
   font-size: 100%;
   color: #1f1f1f;
 }
@@ -168,8 +168,8 @@ select {
 /* Declare the same value for min- and max-width to avoid colliding with desktops */
 /* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
 @media only screen 
-  and (min-device-width: 1112px) 
-  and (max-device-width: 1112px) 
+  and (min-device-width: 1080px) 
+  and (max-device-width: 1080px) 
   and (orientation: landscape) 
   and (-webkit-min-device-pixel-ratio: 2) {
     .home-page__intro {
@@ -228,8 +228,8 @@ select {
 /* ----------- iPad Pro 10.5" ----------- */
 /* Portrait */
 @media only screen 
-  and (min-device-width: 834px) 
-  and (max-device-width: 834px) 
+  and (min-device-width: 800px) 
+  and (max-device-width: 800px) 
   and (orientation: portrait) 
   and (-webkit-min-device-pixel-ratio: 2) {
     .home-page__intro {
@@ -494,8 +494,8 @@ select {
 /* Declare the same value for min- and max-width to avoid colliding with desktops */
 /* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
 @media only screen 
-  and (min-device-width: 1112px) 
-  and (max-device-width: 1112px) 
+  and (min-device-width: 1080px) 
+  and (max-device-width: 1080px) 
   and (orientation: landscape) 
   and (-webkit-min-device-pixel-ratio: 2) {
     .home-page__company {
@@ -556,8 +556,8 @@ select {
 /* ----------- iPad Pro 10.5" ----------- */
 /* Portrait */
 @media only screen 
-  and (min-device-width: 834px) 
-  and (max-device-width: 834px) 
+  and (min-device-width: 800px) 
+  and (max-device-width: 800px) 
   and (orientation: portrait) 
   and (-webkit-min-device-pixel-ratio: 2) {
     
@@ -792,8 +792,8 @@ select {
 /* Declare the same value for min- and max-width to avoid colliding with desktops */
 /* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
 @media only screen 
-  and (min-device-width: 1112px) 
-  and (max-device-width: 1112px) 
+  and (min-device-width: 1080px) 
+  and (max-device-width: 1080px) 
   and (orientation: landscape) 
   and (-webkit-min-device-pixel-ratio: 2) {
     .home-page__services {
@@ -884,8 +884,8 @@ select {
 /* ----------- iPad Pro 10.5" ----------- */
 /* Portrait */
 @media only screen 
-  and (min-device-width: 834px) 
-  and (max-device-width: 834px) 
+  and (min-device-width: 800px) 
+  and (max-device-width: 800px) 
   and (orientation: portrait) 
   and (-webkit-min-device-pixel-ratio: 2) {
     .home-page__services {
@@ -1218,20 +1218,20 @@ select {
 }
 
 @media only screen 
-  and (min-device-width: 1112px) 
-  and (max-device-width: 1112px) 
+  and (min-device-width: 1080px) 
+  and (max-device-width: 1080px) 
   and (orientation: landscape) 
   and (-webkit-min-device-pixel-ratio: 2) {
     .home-page__product-carousel #button {
       width: 120px; 
-      font-family: "Acumin Pro";
+      font-family: acumin-pro, sans-serif;
     }
   
     .home-page__product-carousel .button {
       align-self: flex-end;
       margin-right: 2rem;
       cursor: pointer;
-      font-family: "Acumin Pro";
+      font-family: acumin-pro, sans-serif;
     }
 
     .carousel__header .text {
@@ -1297,20 +1297,20 @@ select {
 /* ----------- iPad Pro 10.5" ----------- */
 /* Portrait */
 @media only screen 
-  and (min-device-width: 834px) 
-  and (max-device-width: 834px) 
+  and (min-device-width: 800px) 
+  and (max-device-width: 800px) 
   and (orientation: portrait) 
   and (-webkit-min-device-pixel-ratio: 2) {
     .home-page__product-carousel #button {
       width: 120px; 
-      font-family: "Acumin Pro";
+      font-family: acumin-pro, sans-serif;
     }
   
     .home-page__product-carousel .button {
       align-self: flex-end;
       margin-right: 2rem;
       cursor: pointer;
-      font-family: "Acumin Pro";
+      font-family: acumin-pro, sans-serif;
     }
 
     .carousel__header .text {
@@ -1773,8 +1773,8 @@ select {
 /* ----------- iPad Pro 10.5" ----------- */
 /* Landscape */
 @media only screen 
-  and (min-device-width: 1112px) 
-  and (max-device-width: 1112px) 
+  and (min-device-width: 1080px) 
+  and (max-device-width: 1080px) 
   and (orientation: landscape) 
   and (-webkit-min-device-pixel-ratio: 2) {
     .home-page__contact {
@@ -1852,8 +1852,8 @@ select {
 /* ----------- iPad Pro 10.5" ----------- */
 /* Portrait */
 @media only screen 
-  and (min-device-width: 834px) 
-  and (max-device-width: 834px) 
+  and (min-device-width: 800px) 
+  and (max-device-width: 800px) 
   and (orientation: portrait) 
   and (-webkit-min-device-pixel-ratio: 2) {
     .home-page__contact {
@@ -2199,7 +2199,7 @@ select {
 #mb-nav-wrp {
   display: none;
 }
-@media only screen and (max-width: 834px) {
+@media only screen and (max-width: 800px) {
   #mb-nav-wrp {
     display: block;
   }
