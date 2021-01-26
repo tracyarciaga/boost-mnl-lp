@@ -168,9 +168,9 @@ select {
 /* Declare the same value for min- and max-width to avoid colliding with desktops */
 /* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
 @media only screen 
-  and (min-device-width: 1112px) 
-  and (max-device-width: 1112px) 
-
+  and (min-device-width: 1080px) 
+  and (max-device-width: 1080px) 
+  and (orientation: landscape) 
   and (-webkit-min-device-pixel-ratio: 2) {
     .home-page__intro {
       flex-direction: row;
@@ -496,9 +496,9 @@ select {
 /* Declare the same value for min- and max-width to avoid colliding with desktops */
 /* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
 @media only screen 
-  and (min-device-width: 1112px) 
-  and (max-device-width: 1112px) 
-
+  and (min-device-width: 1080px) 
+  and (max-device-width: 1080px) 
+  and (orientation: landscape) 
   and (-webkit-min-device-pixel-ratio: 2) {
     .home-page__company {
       flex-direction: row;
@@ -796,9 +796,9 @@ select {
 /* Declare the same value for min- and max-width to avoid colliding with desktops */
 /* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
 @media only screen 
-  and (min-device-width: 1112px) 
-  and (max-device-width: 1112px) 
-
+  and (min-device-width: 1080px) 
+  and (max-device-width: 1080px) 
+  and (orientation: landscape) 
   and (-webkit-min-device-pixel-ratio: 2) {
     .home-page__services {
       flex-direction: row;
@@ -1224,9 +1224,9 @@ select {
 }
 
 @media only screen 
-  and (min-device-width: 1112px) 
-  and (max-device-width: 1112px) 
-
+  and (min-device-width: 1080px) 
+  and (max-device-width: 1080px) 
+  and (orientation: landscape) 
   and (-webkit-min-device-pixel-ratio: 2) {
     .home-page__product-carousel #button {
       width: 120px; 
@@ -1781,9 +1781,9 @@ select {
 /* ----------- iPad Pro 10.5" ----------- */
 /* Landscape */
 @media only screen 
-  and (min-device-width: 1112px) 
-  and (max-device-width: 1112px) 
-
+  and (min-device-width: 1080px) 
+  and (max-device-width: 1080px) 
+  and (orientation: landscape) 
   and (-webkit-min-device-pixel-ratio: 2) {
     .home-page__contact {
       flex-direction: row;
