@@ -148,7 +148,7 @@ select {
   and (-webkit-min-device-pixel-ratio: 2) {
     .home-page__intro {
       flex-direction: row;
-      border: 1px solid blue
+      
     }
   
     .home-page__blurb {
@@ -310,7 +310,7 @@ select {
   and (min-resolution: 192dpi) { 
   .home-page__intro {
     flex-direction: row;
-    border: 1px solid green;
+    
   }
 
     
@@ -544,7 +544,7 @@ select {
   and (-webkit-min-device-pixel-ratio: 2) {
     .home-page__company {
       flex-direction: row;
-      border: 1px solid blue
+      
     }
     .home-page__company-banner {
       width: 53%;
@@ -686,7 +686,6 @@ select {
   and (min-resolution: 192dpi) { 
   .home-page__company {
     flex-direction: row;
-    border: 1px solid green;
   }
   .home-page__company-banner {
     width: 55%;
@@ -839,7 +838,6 @@ select {
       flex-direction: row;
       justify-content: flex-end;
       padding-bottom: 6rem;
-      border: 1px solid blue
     }
   
     .home-page__services-banner {
@@ -1345,7 +1343,6 @@ select {
 
     .home-page__product {
       flex-direction: row;
-      border: 1px solid blue
     }
   
     .home-page__product-banner {
@@ -1425,7 +1422,6 @@ select {
 
     .home-page__product {
       flex-direction: row;
-      
     }
   
     .home-page__product-banner {
@@ -1940,7 +1936,7 @@ select {
   and (-webkit-min-device-pixel-ratio: 2) {
     .home-page__contact {
       flex-direction: row;
-      border: 1px solid blue
+      
     }
   
     .home-page__contact-banner {
@@ -2101,7 +2097,7 @@ select {
 
   .home-page__contact {
     flex-direction: row;
-    border: 1px solid green;
+    
   }
 
   .home-page__contact-banner {
