@@ -135,7 +135,7 @@ select {
   cursor: pointer;
 }
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1420px) {
   .home-page__intro {
     flex-direction: row;
   }
@@ -470,7 +470,7 @@ select {
   z-index: -1;
 }
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1420px) {
   .home-page__company {
     flex-direction: row;
   }
@@ -730,7 +730,7 @@ select {
   font-size: 1.5em;
 }
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1420px) {
   .home-page__services {
     flex-direction: row;
     justify-content: flex-end;
@@ -1195,7 +1195,7 @@ select {
   width: 150px;
 }
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1420px) {
   .home-page__product-carousel #button {
     width: 150px;
   }
@@ -1939,7 +1939,7 @@ select {
     
 }
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1420px) {
 
   .home-page__contact {
     flex-direction: row;
@@ -2317,7 +2317,7 @@ select {
   width: 100%;
   /* margin: 55px 0 7rem 0; */
 }
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1420px) {
   .main-content {
     margin-top: 89px;
   }
