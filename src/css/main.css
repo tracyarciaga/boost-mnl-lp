@@ -555,7 +555,7 @@ select {
     }
     .home-page__company-banner #office {
       margin-right: 1vw;
-      width: 400px;
+      width: 450px;
     }
     #black-ellipse {
       top: -4vw;
@@ -619,7 +619,7 @@ select {
     }
     .home-page__company-banner #office {
       margin-right: 1vw;
-      width: 300px;
+      width: 350px;
     }
     #black-ellipse {
       top: -4vw;
@@ -697,7 +697,7 @@ select {
   }
   .home-page__company-banner #office {
     margin-right: 5vw;
-    width: 500px;
+    width: 550px;
   }
 
   .company__blurb-content .who-we-are {
