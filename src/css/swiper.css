@@ -14,13 +14,15 @@ and (-webkit-min-device-pixel-ratio: 2) {
       }
     .swiper-button-next {
         padding-left: 30px;
-        border: 1px solid red;
     }
     .swiper-button-prev {
         padding-right: 30px;
-        border: 1px solid red;
     }
-    .swiper-wrapper {
-        border: 1px solid green;
-    }
+}
+
+@media only screen and (max-width: 767px) {
+    .swiper-container {
+        width: 350px;
+        height: 100%;
+      }
 }

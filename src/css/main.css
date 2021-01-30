@@ -736,22 +736,23 @@ select {
     padding: 4rem 2rem;
   }
   .home-page__company-banner {
-    margin-top: -11rem;
+    margin-top: -4em;
+    margin-bottom: 4em;
   }
   .home-page__company-banner #office {
-    width: 80%;
-    height: 80%;
+    width: 105%;
+    height: 105%;
   }
   #black-ellipse {
-    top: 1rem;
-    left: 82%;
-    width: 120px;
-    height: 120px;
+    top: -3rem;
+    left: 16em;
+    width: 90px;
+    height: 90px;
   }
   #semi-circle-company {
-    top: 17.55rem;
+    top: 14.55rem;
     left: 0;
-    width: 150px;
+    width: 120px;
   }
   .company__blurb-header--regular {
     font-size: 1em;
@@ -1163,7 +1164,7 @@ select {
   }
 
   #paper-planes {
-    width: 110%;
+    width: 105%;
     margin-left: -1rem;
   }
   #pic-laptop {
@@ -1621,10 +1622,40 @@ select {
     padding: 2.5rem;
   }
 
-  .home-page__product-carousel .button {
-    position: absolute;
-    left: 5rem;
-    bottom: -1.5rem
+  .home-page__product-carousel {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  
+  .home-page__product-carousel .swiper-slide {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  
+  .home-page__product-carousel .swiper-slide {
+    padding-bottom: 50px;
+  }
+
+  .carousel-button {
+    align-self: flex-end;
+    margin-right: 5em;
+    cursor: pointer;
+    width: 70px; 
+    font-family: acumin-pro, sans-serif;
+  }
+
+  .carousel-button > a > img {
+    width: 100px; 
+  }
+
+  #mobile-phones {
+    width: 83%;
+    padding-bottom: 20px;
+    padding-left: 30px;
   }
 }
 
