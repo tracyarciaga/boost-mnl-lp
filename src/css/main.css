@@ -51,12 +51,10 @@ select {
   margin: 0 auto;
 }
 
-
 .home-page__intro {
   display: flex;
   flex-direction: column;
 }
-
 
 .home-page__banner {
   align-self: center;
@@ -1063,7 +1061,6 @@ select {
     flex-direction: row;
     justify-content: flex-end;
     padding-bottom: 8rem;
-    border: 1px solid green
   }
 
   .home-page__services-banner {
