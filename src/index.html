@@ -12,6 +12,16 @@
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;400;600&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="css/main.css" />
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+
+<link rel="stylesheet" href="css/swiper.css" />
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<script src="js/swiper.js"></script>
 
 </head>
 
@@ -241,7 +251,49 @@
           <section id="who-we-are" class="home-page__product">
             <div class="home-page__product-banner">
               <div class="home-page__product-carousel">
-                <div class="carousel__header">
+                <!-- Slider main container -->
+                <div class="swiper-container">
+                  <!-- Additional required wrapper -->
+                  <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide">
+                      <div class="carousel__header">
+                        <img id="bellhop-logo" 
+                          src='img/bellhop-logo.png'
+                          srcset='img/bellhop-logo-2x.png 2000w,
+                                img/bellhop-logo.png 1000w'
+                          sizes='(min-width: 700px) 700px,
+                                100vw'
+                        />
+                        <span class="text">
+                          The only smart property <br />  
+                          management app you’ll ever need.
+                        </span>
+                      </div>
+                      <img id="mobile-phones" 
+                        src='img/pic-mobile-phones.png'
+                        srcset='img/pic-mobile-phones-2x.png 2000w,
+                              img/pic-mobile-phones.png 1000w'
+                        sizes='(min-width: 700px) 700px,
+                              100vw'
+                      />
+                      <div class="carousel-button"> 
+                        <a href="https://tracyarciaga.github.io/bellhop-lp/"><img id="button" src="img/button-go-to-website.svg" /></a>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">Slide 2</div>
+                    <div class="swiper-slide">Slide 3</div>
+                    
+                  </div>
+                  <!-- If we need pagination -->
+                  <div class="swiper-pagination"></div>
+
+                  <!-- If we need navigation buttons -->
+                  <div class="swiper-button-prev"></div>
+                  <div class="swiper-button-next"></div>
+
+                </div>
+                <!-- <div class="carousel__header">
                   <img id="bellhop-logo" 
                     src='img/bellhop-logo.png'
                     srcset='img/bellhop-logo-2x.png 2000w,
@@ -263,7 +315,7 @@
                 />
                 <div class="button"> 
                   <img id="button" src="img/button-go-to-website.svg" />
-                </div>
+                </div> -->
               </div>
 
               <img id="shape-qtr-ellipse-black" src="img/shape-quarter-ellipse-black.svg" />
