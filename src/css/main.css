@@ -307,11 +307,8 @@ select {
   and (-webkit-min-device-pixel-ratio: 2)
   and (min-resolution: 192dpi) { 
   .home-page__intro {
-    flex-direction: row;
-    
+    flex-direction: row; 
   }
-
-    
   .home-page__banner {
     align-self: center;
     width: 100%;
@@ -542,7 +539,6 @@ select {
   and (-webkit-min-device-pixel-ratio: 2) {
     .home-page__company {
       flex-direction: row;
-      
     }
     .home-page__company-banner {
       width: 53%;
@@ -606,7 +602,6 @@ select {
     
     .home-page__company {
       flex-direction: row;
-      
     }
     .home-page__company-banner {
       width: 53%;

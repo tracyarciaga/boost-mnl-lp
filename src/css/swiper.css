@@ -17,11 +17,24 @@
     color: transparent;
 }
 
-@media only screen 
-and (min-device-width: 834px) 
-and (max-device-height: 1112px) 
-and (orientation: portrait) 
-and (-webkit-min-device-pixel-ratio: 2) {
+  /* // Extra small devices (portrait phones, less than 576px) */
+  @media (max-width: 575.98px) {  
+    .swiper-container {
+        width: 300px;
+        height: 100%;
+      }
+  }
+
+  /* // Small devices (landscape phones, 576px and up) */
+  @media (min-width: 576px) and (max-width: 767.98px) {  
+    .swiper-container {
+        width: 300px;
+        height: 100%;
+      }
+  }
+
+  /* // Medium devices (tablets, 768px and up) */
+  @media (min-width: 768px) and (max-width: 991.98px) {  
     .swiper-container {
         width: 100%;
         height: 100%;
@@ -37,11 +50,26 @@ and (-webkit-min-device-pixel-ratio: 2) {
     .swiper-button-prev {
         padding-right: 30px;
     }
-}
+  }
 
-@media only screen and (max-width: 767px) {
+  /* // Large devices (desktops, 992px and up) */
+  @media (min-width: 992px) and (max-width: 1199.98px) {  
     .swiper-container {
-        width: 350px;
+        width: 90%;
         height: 100%;
       }
-}
+    .swiper-button-next {
+        padding-left: 30px;
+        border: none;
+    }
+    .swiper-button-next::after {
+        text-decoration: none;
+        border: none;
+    }
+    .swiper-button-prev {
+        padding-right: 30px;
+    }
+  }
+
+  /* // Extra large devices (large desktops, 1200px and up) */
+  @media (min-width: 1200px) {  }

@@ -11,7 +11,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;400;600&display=swap" rel="stylesheet">
 
-<link rel="stylesheet" href="css/main.css" />
+<link rel="stylesheet" href="css/main2.css" />
 <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
 <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
 
@@ -38,9 +38,9 @@
             <nav class="main-header__menu">
               <ul>
                 <li><a href="index.html#who-we-are">WHO WE ARE</a></li>
-                <li><a href="index.html">WHAT WE DO</a></li>
-                <li><a href="index.html">WHAT WE OFFER</a></li>
-                <li><a href="index.html">BLOG</a></li>
+                <li><a href="index.html#what-we-do">WHAT WE DO</a></li>
+                <li><a href="index.html#what-we-offer">WHAT WE OFFER</a></li>
+                <li><a href="index.html#blog">BLOG</a></li>
               </ul>
             </nav>
     
@@ -80,415 +80,336 @@
       <!-- / NAVI FOR MOBILE -->
 
       <main class="main-content">
+        <section class="home-page-clear">
+         
+        </section>
+        
+        <section class="home-page__intro">
 
-          <!-- <section class="home-page__intro">
-            <img class="home-page__intro-ellipse" src='img/home-page-ellipse-277.svg' />
+          <img class="home-page__banner" src='img/home-page-intro.png'/>
+   
 
-            <div class="home-page__intro-blurb">
-              <div class="intro__blurb-content">
-                <span>
-                  <span class="intro__blurb-title--orange"> good </span>
-                  <span class="intro__blurb-title--regular"> automation </span> 
-                </span>
-                <span>
-                  <span class="intro__blurb-title--orange"> good </span>
-                  <span class="intro__blurb-title--regular"> business </span> 
-                </span>
-                <span class="intro__blurb-description">
-                  Digital solutions that are scalable, accessible, compatible, time and cost-efficient for your business. Why develop from scratch when you can just sign up for the app you need?
-                </span>
+          <div class="home-page__banner--mobile-only">
+            <img src='img/home-page-intro-mobile-2x.png' /> 
+          </div>
+          
+          <div class="home-page__blurb"> 
+            <img id="blue-ellipse" src="img/shape-ellipse-teal.svg" />
+            <img id="yellow-donut" src="img/shape-donut-yellow.svg" />
+            <div class="home-page__blurb-content">
+              <div class="home-page__blurb-header">
+                <span class="intro__blurb-header--orange"> good </span> &nbsp; &nbsp;
+                <span class="intro__blurb-header--regular"> automation </span> 
               </div>
-              <div class="intro__blurb-sns">
-                <ul>
-                  <li> 
-                    <a class="intro__blurb-btn" href="index.html">
-                      <img class="intro__blurb-btn--size" src="img/icon-fb.svg" />
-                    </a>
-                  </li>
-                  <li> 
-                    <a class="intro__blurb-btn" href="index.html">
-                      <img class="intro__blurb-btn--size" src="img/icon-ig.svg" />
-                    </a>
-                  </li>
-                  <li> 
-                    <a class="intro__blurb-btn" href="index.html">
-                      <img class="intro__blurb-btn--size" src="img/icon-in.svg" />
-                    </a>
-                  </li>
-                </ul>
+              <div class="home-page__blurb-header">
+                <span class="intro__blurb-header--orange"> good </span> &nbsp; &nbsp;
+                <span class="intro__blurb-header--regular"> business </span> 
               </div>
+              <span class="intro__blurb-description">
+                Digital solutions that are scalable, accessible, compatible, time and cost-efficient for your business. Why develop from scratch when you can just sign up for the app you need?
+              </span>
               <div>
                 <a href="#"><img class="intro__blurb-learn" src="img/button-learn-more.png" /></a>
               </div>
-            </div>
-            <div class="home-page__intro-banner">
-              <img src='img/home-page-intro.png'
-                   srcset='img/home-page-intro-2x.png 2000w,
-                          img/home-page-intro.png 1000w'
-                   sizes='(min-width: 700px) 700px,
-                          100vw'/>
-              
-            </div>
-
-          </section> -->
-
-          <section class="home-page__intro">
-            <div class="home-page__banner">
-              <img src='img/home-page-intro.png'
-              srcset='img/home-page-intro-2x.png 2000w,
-                     img/home-page-intro.png 1000w'
-              sizes='(min-width: 700px) 700px,
-                     100vw'/>
-            </div>
-
-            <div class="home-page__blurb"> 
-              <img id="blue-ellipse" src="img/shape-ellipse-teal.svg" />
-
-              <img id="yellow-donut" src="img/shape-donut-yellow.svg" />
-
-              <div class="home-page__blurb-content">
-                <div class="home-page__blurb-header">
-                    <span class="intro__blurb-header--orange"> good </span> &nbsp; &nbsp;
-                    <span class="intro__blurb-header--regular"> automation </span> 
-                </div>
-
-                <div class="home-page__blurb-header">
-                  <span class="intro__blurb-header--orange"> good </span> &nbsp; &nbsp;
-                  <span class="intro__blurb-header--regular"> business </span> 
-                </div>
-                <span class="intro__blurb-description">
-                  Digital solutions that are scalable, accessible, compatible, time and cost-efficient for your business. Why develop from scratch when you can just sign up for the app you need?
-                </span>
-                <div>
-                  <a href="#"><img class="intro__blurb-learn" src="img/button-learn-more.png" /></a>
-                </div>
-              </div>
-            </div>
-          </section>
-
-
-          <section id="who-we-are" class="home-page__company">
-            <div class="home-page__company-banner">
-              <img id="black-ellipse" src="img/shape-ellipse-black.svg" />
-              <img id="semi-circle-company" src="img/shape-semi-ellipse-blueyellow.svg" />
-              <div>
-                <img id="office" 
-                src='img/office-2x.png'
-                srcset='img/office-2x.png 2000w,
-                       img/office.png 1000w'
-                sizes='(min-width: 700px) 700px,
-                       100vw'/>
-              </div>
              
             </div>
-            <div class="home-page__company-blurb">
-              <img id="shape-blue-black" src="img/shape-black-blue.svg" />
-              
-              <div class="company__blurb-content">
-                <span class="who-we-are">
-                  WHO WE ARE
-                </span> 
-                <h2>
-                  <span> 
-                    <span class="company__blurb-header--regular">We are a</span> 
-                    <span class="company__blurb-header--orange"> 100% </span>
-                  </span>
-                  <span class="company__blurb-header--orange">  Filipino-owned </span>
-                  <span>
-                    <span class="company__blurb-header--orange"> tech </span>  
-                    <span class="company__blurb-header--regular">company</span>
-                  </span>
-                </h2>  
-                <span class="company__blurb-description">
-                  We are an emerging growth company who aim to provide the best SAAS solutions for you and your business.
-                </span>
-              </div>
-            </div>  
-          </section>
+          </div>  
+        </section>  
 
-          <section id="what-we-do" class="home-page__services">
-            <div class="home-page__services-blurb">
-              <div class="services__blurb-content">
-                <span class="what-we-do">
-                  WHAT WE DO
-                </span> 
-                <h2>
-                  <span> 
-                    
-                    <span class="services__blurb-header--regular">We help</span> 
-                    <span class="services__blurb-header--regular"> organizations </span>
-                  </span>
-                  <span>
-                    <span class="services__blurb-header--orange"> save & run </span>  
-                    <span class="services__blurb-header--orange">more efficiently</span>
-                  </span>
-                </h2>  
-                <span class="services__blurb-description">
-                  Our SAAS solutions and friendly packages provide you streamlined focus and greater productivity.
-                </span>
-              </div>
+        <section id="who-we-are" class="home-page__company">
+          <div class="home-page__company-banner">
+            <img id="black-ellipse" src="img/shape-ellipse-black.svg" />
+            <img id="semi-circle-company" src="img/shape-semi-ellipse-blueyellow.svg" />
+            <div>
+              <img id="office" 
+              src='img/office-2x.png'
+              srcset='img/office-2x.png 2000w,
+                      img/office.png 1000w'
+              sizes='(min-width: 700px) 700px,
+                      100vw'/>
             </div>
-            <div class="home-page__services-banner">
-              <div>
-                <img id="paper-planes" 
-                  src='img/pic-paper-planes.png'
-                  srcset='img/pic-paper-planes-2x.png 2000w,
-                        img/pic-paper-planes-2x.png 1000w'
-                  sizes='(min-width: 700px) 700px,
-                        100vw'/>
-              </div>
-              <img id="pic-laptop" src="img/pic-laptop-2x.png" />
-              <img id="pic-hands" src="img/pic-hands.png" />
-              <img id="blue-ellipse-in-services" src="img/shape-ellipse-teal.svg" />
-              
-            </div>
-            <img id="shape-quarter-donut" src="img/shape-quarter-donut-purple.svg" />
-            <img id="shape-pink-donut" src="img/shape-pink-donut.svg" />
+          </div>
+          <div class="home-page__company-blurb">
+            <img id="shape-blue-black" src="img/shape-black-blue.svg" />
             
-          </section>
+            <div class="company__blurb-content">
+              <span class="who-we-are">
+                WHO WE ARE
+              </span> 
+              <h2>
+                <span> 
+                  <span class="company__blurb-header--regular">We are a</span> 
+                  <span class="company__blurb-header--orange"> 100% </span>
+                </span>
+                <span class="company__blurb-header--orange">  Filipino-owned </span>
+                <span>
+                  <span class="company__blurb-header--orange"> tech </span>  
+                  <span class="company__blurb-header--regular">company</span>
+                </span>
+              </h2>  
+              <span class="company__blurb-description">
+                We are an emerging growth company who aim to provide the best SAAS solutions for you and your business.
+              </span>
+            </div>
+          </div>  
+          
+        </section>
 
-          <!-- What we offer -->
-          <section id="who-we-are" class="home-page__product">
-            <div class="home-page__product-banner">
-              <div class="home-page__product-carousel">
-                <!-- Slider main container -->
-                <div class="swiper-container">
-                  <!-- Additional required wrapper -->
-                  <div class="swiper-wrapper">
-                    <!-- Slides -->
-                    <div class="swiper-slide">
-                      <div class="carousel__header">
-                        <img id="bellhop-logo" 
-                          src='img/bellhop-logo.png'
-                          srcset='img/bellhop-logo-2x.png 2000w,
-                                img/bellhop-logo.png 1000w'
-                          sizes='(min-width: 700px) 700px,
-                                100vw'
-                        />
-                        <span class="text">
-                          The only smart property <br />  
-                          management app you’ll ever need.
-                        </span>
-                      </div>
-                      <img id="mobile-phones" 
-                        src='img/pic-mobile-phones.png'
-                        srcset='img/pic-mobile-phones-2x.png 2000w,
-                              img/pic-mobile-phones.png 1000w'
+        <section id="what-we-do" class="home-page__services">
+          <div class="home-page__services-blurb">
+            <div class="services__blurb-content">
+              <span class="what-we-do">
+                WHAT WE DO
+              </span> 
+              <h2>
+                <span> 
+                  
+                  <span class="services__blurb-header--regular">We help</span> 
+                  <span class="services__blurb-header--regular"> organizations </span>
+                </span>
+                <span>
+                  <span class="services__blurb-header--orange"> save & run </span>  <br/>
+                  <span class="services__blurb-header--orange">more efficiently</span>
+                </span>
+              </h2>  
+              <span class="services__blurb-description">
+                Our SAAS solutions and friendly packages provide you streamlined focus and greater productivity.
+              </span>
+            </div>
+          </div>
+          <div class="home-page__services-banner">
+            <div class="paper-planes">
+              <img id="paper-planes" 
+                src='img/pic-paper-planes.png'
+                srcset='img/pic-paper-planes-2x.png 2000w,
+                      img/pic-paper-planes-2x.png 1000w'
+                sizes='(min-width: 700px) 700px,
+                      100vw'/>
+            </div>
+            <img id="pic-laptop" src="img/pic-laptop-2x.png" />
+            <img id="pic-hands" src="img/pic-hands.png" />
+            <img id="blue-ellipse-in-services" src="img/shape-ellipse-teal.svg" />
+            
+          </div>
+          <img id="shape-quarter-donut" src="img/shape-quarter-donut-purple.svg" />
+          <img id="shape-pink-donut" src="img/shape-pink-donut.svg" />
+          
+        </section>
+
+        <!-- What we offer -->
+        <section id="what-we-offer" class="home-page__product">
+          <div class="home-page__product-banner">
+            <div class="home-page__product-carousel">
+              <!-- Slider main container -->
+              <div class="swiper-container">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                  <!-- Slides -->
+                  <div class="swiper-slide">
+                    <div class="carousel__header">
+                      <img id="bellhop-logo" 
+                        src='img/bellhop-logo.png'
+                        srcset='img/bellhop-logo-2x.png 2000w,
+                              img/bellhop-logo.png 1000w'
                         sizes='(min-width: 700px) 700px,
                               100vw'
                       />
-                      <div class="carousel-button"> 
-                        <a href="https://tracyarciaga.github.io/bellhop-lp/"><img id="button" src="img/button-go-to-website.svg" /></a>
-                      </div>
+                      <span class="text">
+                        The only smart property <br />  
+                        management app you’ll ever need.
+                      </span>
                     </div>
-                    <div class="swiper-slide">Slide 2</div>
-                    <div class="swiper-slide">Slide 3</div>
-                    
+                    <img id="mobile-phones" 
+                      src='img/pic-mobile-phones.png'
+                      srcset='img/pic-mobile-phones-2x.png 2000w,
+                            img/pic-mobile-phones.png 1000w'
+                      sizes='(min-width: 700px) 700px,
+                            100vw'
+                    />
+                    <div class="carousel-button"> 
+                      <a href="https://tracyarciaga.github.io/bellhop-lp/"><img id="button" src="img/button-go-to-website.svg" /></a>
+                    </div>
                   </div>
-                  <!-- If we need pagination -->
-                  <div class="swiper-pagination"></div>
-
-                  <!-- If we need navigation buttons -->
-                  <div class="swiper-button-prev"></div>
-                  <div class="swiper-button-next"></div>
-
+                  <div class="swiper-slide">Slide 2</div>
+                  <div class="swiper-slide">Slide 3</div>
+                  
                 </div>
-                <!-- <div class="carousel__header">
-                  <img id="bellhop-logo" 
-                    src='img/bellhop-logo.png'
-                    srcset='img/bellhop-logo-2x.png 2000w,
-                          img/bellhop-logo.png 1000w'
-                    sizes='(min-width: 700px) 700px,
-                          100vw'
-                  />
-                  <span class="text">
-                    The only smart property <br />  
-                    management app you’ll ever need.
-                  </span>
-                </div>
-                <img id="mobile-phones" 
-                  src='img/pic-mobile-phones.png'
-                  srcset='img/pic-mobile-phones-2x.png 2000w,
-                        img/pic-mobile-phones.png 1000w'
-                  sizes='(min-width: 700px) 700px,
-                        100vw'
-                />
-                <div class="button"> 
-                  <img id="button" src="img/button-go-to-website.svg" />
-                </div> -->
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+
               </div>
-
-              <img id="shape-qtr-ellipse-black" src="img/shape-quarter-ellipse-black.svg" />
-
-              <img id="shape-qtr-ellipse-teal" src="img/shape-quarter-ellipse-teal.svg" />
-
             </div>
-            <div class="home-page__product-blurb">
-              <div class="product__blurb-content">
-                <span class="what-we-offer">
-                  WHAT WE OFFER
-                </span> 
-                <h2>
-                  <span> 
-                    <span class="product__blurb-header--regular">We create & </span> 
-                    <span class="product__blurb-header--regular"> provide SAAS </span>
-                  </span>
-                  <span>
-                    <span class="product__blurb-header--orange"> solutions you </span>  
-                    <span class="product__blurb-header--orange"> actually use</span>
-                  </span>
-                </h2>  
-                <span class="product__blurb-description">
-                  Software as a Service solutions which meet your data management, security and compliance requirements.
+
+            <img id="shape-qtr-ellipse-black" src="img/shape-quarter-ellipse-black.svg" />
+
+            <img id="shape-qtr-ellipse-teal" src="img/shape-quarter-ellipse-teal.svg" />
+
+          </div>
+          <div class="home-page__product-blurb">
+            <div class="product__blurb-content">
+              <span class="what-we-offer">
+                WHAT WE OFFER
+              </span> 
+              <h2>
+                <span> 
+                  <span class="product__blurb-header--regular">We create & </span> </br>
+                  <span class="product__blurb-header--regular"> provide SAAS </span>
                 </span>
-              </div>
-              <img id="shape-blue-yellow" src="img/shape-blue-yellow.svg" />
-            </div>
-            
-          </section>
-
-          <!-- Blog-->
-          <section class="home-page__blog">
-            <div class="page__blog-header">
-              <figure id="blog-teal-ellipse">
-                <img src='img/shape-ellipse-teal.svg' />
-              </figure>
-              
-              <img id="blog-yellow-donut" src="img/shape-donut-yellow.svg" />
-
-              <h2>OUR BLOG</h2>
-              <span class="subheader">
                 <span>
-                  <span class="page__blog-header--regular">read our</span> 
-                  <span class="page__blog-header--orange"> latest posts </span>
+                  <span class="product__blurb-header--orange"> solutions you </span>  <br/>
+                  <span class="product__blurb-header--orange"> actually use</span>
                 </span>
-                <a href="#" id="view-all"> 
-                  VIEW ALL >
-                </a>
+              </h2>  
+              <span class="product__blurb-description">
+                Software as a Service solutions which meet your data management, security and compliance requirements.
               </span>
-              <div class="page__blog-content">
-                <div class="card">
-                  <img src="img/pic-blog.png" />
+            </div>
+            <img id="shape-blue-yellow" src="img/shape-blue-yellow.svg" />
+          </div>
+          
+        </section>
 
-                  <span class="date">December 24, 2020</span>
-                  <span class="title">4 Property Management Tasks Which Can Be Automated</span>
-                  <span class="summary">
-                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum
-                  </span>
-                  <a href="#" class="read-more">read  more ></a>
-                </div>
-                <div class="card">
-                  <img src="img/pic-blog.png" />
+        <!-- Blog-->
+        <section id="blog" class="home-page__blog">
+          <div class="page__blog-header">
+            <figure id="blog-teal-ellipse">
+              <img src='img/shape-ellipse-teal.svg' />
+            </figure>
+            
+            <img id="blog-yellow-donut" src="img/shape-donut-yellow.svg" />
 
-                  <span class="date">December 24, 2020</span>
-                  <span class="title">4 Property Management Tasks Which Can Be Automated</span>
-                  <span class="summary">
-                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum
-                  </span>
-                  <a href="#" class="read-more">read  more ></a>
-                </div>
-                <div class="card">
-                  <img src="img/pic-blog.png" />
+            <h2>OUR BLOG</h2>
+            <span class="subheader">
+              <span>
+                <span class="page__blog-header--regular">read our</span> 
+                <span class="page__blog-header--orange"> latest posts </span>
+              </span>
+              <a href="#" id="view-all"> 
+                VIEW ALL >
+              </a>
+            </span>
+            <div class="page__blog-content">
+              <div class="card">
+                <img src="img/pic-blog.png" />
 
-                  <span class="date">December 24, 2020</span>
-                  <span class="title">4 Property Management Tasks Which Can Be Automated</span>
-                  <span class="summary">
-                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum
-                  </span>
-                  <a href="#" class="read-more">read  more ></a>
-                </div>
+                <span class="date">December 24, 2020</span>
+                <span class="title">4 Property Management Tasks Which Can Be Automated</span>
+                <span class="summary">
+                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum
+                </span>
+                <a href="#" class="read-more">read  more ></a>
+              </div>
+              <div class="card">
+                <img src="img/pic-blog.png" />
+
+                <span class="date">December 24, 2020</span>
+                <span class="title">4 Property Management Tasks Which Can Be Automated</span>
+                <span class="summary">
+                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum
+                </span>
+                <a href="#" class="read-more">read  more ></a>
+              </div>
+              <div class="card">
+                <img src="img/pic-blog.png" />
+
+                <span class="date">December 24, 2020</span>
+                <span class="title">4 Property Management Tasks Which Can Be Automated</span>
+                <span class="summary">
+                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum
+                </span>
+                <a href="#" class="read-more">read  more ></a>
               </div>
             </div>
-          </section>
+          </div>
+        </section>
 
-          <!-- Contact Us-->
-          <section id="contact-us" class="home-page__contact">
-            <div class="home-page__contact-banner">
-              <img id="shape-ellipse-blue" src="img/shape-ellipse-blue.svg" />
-              <img id="shape-qtr-yellow-donut" src="img/shape-qtr-yellow-donut.svg" />
+        <!-- Contact Us-->
+        <section id="contact-us" class="home-page__contact">
+          <div class="home-page__contact-banner">
+            <img id="shape-ellipse-blue" src="img/shape-ellipse-blue.svg" />
+            <img id="shape-qtr-yellow-donut" src="img/shape-qtr-yellow-donut.svg" />
 
-              <div class="page__contact-form">
-                <span class="header">LEAVE US A MESSAGE</span>
-                <div class='form-row'>
-                  <label for='full-name'>Name</label>
-                  <input id='full-name' name='full-name' type='text'/>
-                </div>
-                <div class='form-row'>
-                  <label for='full-name'>Mobile Number</label>
-                  <input id='full-name' name='full-name' type='text'/>
-                </div>
-                <div class='form-row'>
-                  <label for='full-name'>Email Address</label>
-                  <input id='full-name' name='full-name' type='text'/>
-                </div>
-                <div class='form-row'>
-                  <label for='full-name'>Message</label>
-                  <textarea id='full-name' name='full-name' rows='10'> </textarea>  
-                </div>
-                <div class='form-row'>
-                  
-                  <a href="#">
-                    <img src="img/button-send.svg" />
-                  </a>
-                </div>
+            <div class="page__contact-form">
+              <span class="header">LEAVE US A MESSAGE</span>
+              <div class='form-row'>
+                <label for='full-name'>Name</label>
+                <input id='full-name' name='full-name' type='text'/>
+              </div>
+              <div class='form-row'>
+                <label for='full-name'>Mobile Number</label>
+                <input id='full-name' name='full-name' type='text'/>
+              </div>
+              <div class='form-row'>
+                <label for='full-name'>Email Address</label>
+                <input id='full-name' name='full-name' type='text'/>
+              </div>
+              <div class='form-row'>
+                <label for='full-name'>Message</label>
+                <textarea id='full-name' name='full-name' rows='10'> </textarea>  
+              </div>
+              <div class='form-row'>
+                
+                <a href="#">
+                  <img src="img/button-send.svg" />
+                </a>
               </div>
             </div>
+          </div>
 
-            <div id="contact-us" class="home-page__contact-blurb">
-              
-              <div class="page__contact-content">
-                <span class="contact-us">
-                  CONTACT US
-                </span> 
-                <h2>
-                  <span> 
-                    <span class="page__contact-header--regular">We'd </span> 
-                    <span class="page__contact-header--orange"> love </span>
-                    <span class="page__contact-header--regular">to </span> 
-                  </span>
-                  <span>
-                    <span class="page__contact-header--orange"> hear from you </span>  
-                  </span>
-                </h2>  
-                <span class="page__contact-description">
-                  Send us a message to book a demo, request for more information or have coffee with us.
+          <div id="contact-us" class="home-page__contact-blurb">
+            
+            <div class="page__contact-content">
+              <span class="contact-us">
+                CONTACT US
+              </span> 
+              <h2>
+                <span> 
+                  <span class="page__contact-header--regular">We'd </span> 
+                  <span class="page__contact-header--orange"> love </span>
+                  <span class="page__contact-header--regular">to </span> 
+                </span>
+                <span>
+                  <span class="page__contact-header--orange"> hear from you </span>  
+                </span>
+              </h2>  
+              <span class="page__contact-description">
+                Send us a message to book a demo, request for more information or have coffee with us.
+              </span>
+            </div>
+            <div class="page__contact-details">
+              <div class="row">
+                
+                <img src="img/icon-mail.svg" />
+                <span>
+                  sales@boostmnl.com
                 </span>
               </div>
-              <div class="page__contact-details">
-                <div class="row">
-                  
-                  <img src="img/icon-mail.svg" />
-                  <span>
-                    sales@boostmnl.com
-                  </span>
-                </div>
-                <div class="row">
-                  <img style="width: 15px; height:25px;" src="img/icon-mobile.svg" />
-                  <span>
-                    +63 917 453 661
-                  </span>
-                  
-                </div>
-                <div class="row">
-                  
-                  <img style="width: 25px; height:25px;" src="img/icon-map.svg" />
-                  <span>
-                    Boost MNL, 5 Lakandula <br />
-                    Street, Marikina Heights, <br />
-                    Marikina City
-                  </span>
-                  
-                </div>
-                <img id="shape-adj-ellipse" src="img/shape-adj-ellipse.svg" />
-
+              <div class="row">
+                <img style="width: 15px; height:25px;" src="img/icon-mobile.svg" />
+                <span>
+                  +63 917 453 661
+                </span>
+                
               </div>
+              <div class="row">
+                
+                <img style="width: 25px; height:25px;" src="img/icon-map.svg" />
+                <span>
+                  Boost MNL, 5 Lakandula <br />
+                  Street, Marikina Heights, <br />
+                  Marikina City
+                </span>
+                
+              </div>
+              <img id="shape-adj-ellipse" src="img/shape-adj-ellipse.svg" />
+
             </div>
-          </section>
-
-        
-
-
-       <!--  </div> home-page__container -->
+          </div>
+        </section>
 
       </main>  <!-- main-content -->
 
