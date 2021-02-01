@@ -42,7 +42,7 @@ select {
   outline: none;
 }
 
-.page-container {
+  .page-container {
     display: flex;
     flex-wrap: wrap;
   }
@@ -244,21 +244,23 @@ select {
 
   #blue-ellipse {
     position: absolute;
-    margin-top: -10.5rem;
+    margin-top: -9.5rem;
     margin-left: -20rem;
-    width: 80px;
-    height: 80px;
+    width: 70px;
+    height: 70px;
     display: block;
   }
 
+
   #yellow-donut {
     position: absolute;
-    top: -20rem;
+    top: -18rem;
     left: -2rem;
     display: block;
     width: 90px;
     height: 90px;
   }
+
 
   .home-page__intro {
     display: flex;
@@ -283,32 +285,37 @@ select {
   }
 
   .home-page__blurb {
-    order: 2;
     display: flex;
-    background-position: -2rem 2rem;
+    order: 2;
+    background-position: -4rem 1rem;
     justify-content: center;
-    background-size: 110%;
-    margin-top: -6rem;
+    background-size: 130%;
+    margin-top: -5rem;
     z-index: -1;
     width: 100%;
   }
 
   .intro__blurb-learn {
-    padding-top: 3rem;
+    padding-top: 2rem;
     width: 35%;
   }
   
   .intro__blurb-header--regular {
-    font-size: 2.3em;
+    font-size: 2em;
   }
   .intro__blurb-header--orange {
-    font-size: 2.3em;
+
+    font-size: 2em;
   }
+  .intro__blurb-description {
+    font-size: 1em;
+    padding-top: 20px;
+  }  
 
   .home-page__blurb-content {
     margin-top: 7rem;
-    margin-left: 6em;
-    margin-bottom: -100rem;
+    margin-left: 4em;
+    margin-bottom: 9.1rem;
     width: 100%;
   }
 }
@@ -1015,8 +1022,8 @@ select {
   
     #shape-pink-donut {
       position: absolute;
-      margin-bottom: -5rem;
-      margin-right: -20rem;
+      margin-bottom: -12rem;
+      margin-right: -27rem;
       width: 75px;
       display: block;
     }
@@ -1026,29 +1033,29 @@ select {
     }
     #paper-planes {
       width: 110%;
-      margin-left: -2rem;
+      margin-left: -3rem;
     }
     #pic-laptop {
       position: absolute;
-      margin-left: 11rem;
-      margin-top: 12rem;
-      width: 32%;
+      margin-left: 16rem;
+      margin-top: 18rem;
+      width: 30%;
     }
   
     #pic-hands {
       position: absolute;
-      margin-left: 4rem;
-      margin-top: 15rem;
+      margin-left: 6rem;
+      margin-top: 20rem;
       width: 25%;
     }
   
   
     #blue-ellipse-in-services {
       position: absolute;
-      left: -2rem; 
-      margin-top: 13rem;
-      width: 75px;
-      height: 75px;
+      left: 1rem; 
+      margin-top: 19rem;
+      width: 70px;
+      height: 70px;
       display: block;
     }
     .services__blurb-content {
@@ -2320,8 +2327,11 @@ select {
     #shape-ellipse-blue {
       width: 60%;
       left: -6rem;
-  
     }
+
+    #shape-adj-ellipse {
+      display: none;
+     }
   }
 
   /* // Medium devices (tablets, 768px and up) */
@@ -2849,7 +2859,7 @@ select {
     text-decoration: none;
     color: inherit;
   }
-  
+
   #mb-nav-wrp .mb-nav .main-nav li:last-of-type {
     padding-bottom: 50px;
   }
