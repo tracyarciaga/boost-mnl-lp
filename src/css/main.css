@@ -191,14 +191,16 @@ select {
       display: flex;
       order: 1;
       width: 100%;
+      margin-top: 3rem;
+      margin-left: 12rem;
     }
 
-    .home-page__banner--mobile-only > img {
+    /* .home-page__banner--mobile-only > img {
       margin-top: 3rem;
       margin-left: 12rem;
       top:0;
       width: 270px;
-    }
+    } */
   
     .home-page__blurb {
       display: flex;
@@ -275,14 +277,16 @@ select {
     display: flex;
     order: 1;
     width: 100%;
+    margin-top: 3rem;
+    margin-left: 12rem;
   }
 
-  .home-page__banner--mobile-only > img {
+  /* .home-page__banner--mobile-only > img {
     margin-top: 3rem;
     margin-left: 12rem;
     top:0;
     width: 400px;
-  }
+  } */
 
   .home-page__blurb {
     display: flex;
