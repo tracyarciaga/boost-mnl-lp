@@ -1614,6 +1614,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
     flex-direction: row;
     justify-content: flex-end;
     padding-bottom: 6rem;
+    border: 1px solid red;
   }
 
   .home-page__services-banner {
@@ -1710,6 +1711,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
     flex-direction: row;
     justify-content: flex-end;
     padding-bottom: 4rem;
+    border: 1px solid red;
   }
 
   .home-page__services-banner {
