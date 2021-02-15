@@ -500,7 +500,7 @@ select {
   }
 }
 
-
+/*iPad 10.5*/
 @media only screen 
   and (min-device-width: 834px) 
   and (max-device-width: 834px) 
@@ -900,7 +900,7 @@ select {
   }
 }
 
-
+/*iPad 10.5*/
 @media only screen 
   and (min-device-width: 834px) 
   and (max-device-width: 834px) 
@@ -1299,22 +1299,22 @@ select {
 
     #pic-laptop {
       position: absolute;
-      margin-right: 5rem;
-      margin-top: 18rem;
+      right: 0;
+      top: 0;
       width: 30%;
     }
   
     #pic-hands {
       position: absolute;
-      margin-right: 16rem;
-      margin-top: 20rem;
+      right: 0;
+      top: 0;
       width: 25%;
     }
   
     #blue-ellipse-in-services {
       position: absolute;
-      margin-right: 24rem;
-      margin-top: 18rem;
+      right: 0;
+      top: 0;
       width: 65px;
       height: 65px;
       display: block;
@@ -1426,7 +1426,7 @@ select {
     }
   }
 
-
+/*iPad 10.5*/
 @media only screen 
   and (min-device-width: 834px) 
   and (max-device-width: 834px) 
