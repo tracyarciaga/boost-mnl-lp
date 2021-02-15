@@ -1385,9 +1385,9 @@ select {
   
     #pic-laptop {
       position: absolute;
-      right: 20vh;
-      top: 32vh;
-      border: 1px solid red;
+      right: 18vh;
+      top: 28vh;
+      border: 1px solid olive;
       width: 23%;
     }
   
@@ -1395,15 +1395,15 @@ select {
       position: absolute;
       right: 50vh;
       top: 22vh;
-      border: 1px solid red;
+      border: 1px solid olive;
       width: 22%;
     }
   
     #blue-ellipse-in-services {
       position: absolute;
-      right: 75vh;
+      right: 80vh;
       top: 60vh;
-      border: 1px solid red;
+      border: 1px solid olive;
       width: 80px;
       height: 80px;
       display: block;
