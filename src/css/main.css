@@ -384,7 +384,7 @@ select {
 @media (min-width: 992px) and (max-width: 1199.98px) {  
   .home-page__intro {
     flex-direction: row;
-    margin-top: 2vh;
+    margin-top: 0.5vh;
     border: 1px solid black;
   }
 
@@ -430,7 +430,7 @@ select {
   #blue-ellipse {
     position: absolute;
     margin-top: 24em;
-    margin-left: 22em;
+    margin-left: 16em;
     width: 60px;
     height: 60px;
     display: block;
@@ -441,7 +441,7 @@ select {
 @media (min-width: 1200px) { 
   .home-page__intro {
     flex-direction: row;
-    margin-top: 4vh;
+    margin-top: 2vh;
     border: 1px solid olive;
   }
 
@@ -488,7 +488,7 @@ select {
   #blue-ellipse {
     position: absolute;
     margin-top: 28em;
-    margin-left: 30em;
+    margin-left: 20em;
     width: 70px;
     height: 70px;
     display: block;
