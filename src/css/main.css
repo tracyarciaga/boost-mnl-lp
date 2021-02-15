@@ -508,6 +508,7 @@ select {
   and (-webkit-min-device-pixel-ratio: 2) {
     .home-page__intro {
       border: 1px solid cyan;
+      margin-top: -2em;
     }
 
     #blue-ellipse {
