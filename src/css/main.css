@@ -208,7 +208,7 @@ select {
       background-position: -2rem 2rem;
       justify-content: center;
       background-size: 130%;
-      margin-top: -5rem;
+      margin-top: -3rem;
       z-index: -1;
       width: 100%;
     }
@@ -231,8 +231,8 @@ select {
     }  
   
     .home-page__blurb-content {
-      margin-top: 7rem;
-      margin-left: 2em;
+      margin-top: 4rem;
+      margin-left: 4em;
       margin-bottom: 9.1rem;
       width: 100%;
     }
