@@ -1386,8 +1386,8 @@ select {
     #pic-laptop {
       position: absolute;
       right: 20vh;
-      top: 32;
-      border: 1px solid black;
+      top: 32vh;
+      border: 1px solid red;
       width: 23%;
     }
   
@@ -1395,15 +1395,15 @@ select {
       position: absolute;
       right: 50vh;
       top: 22vh;
-      border: 1px solid black;
+      border: 1px solid red;
       width: 22%;
     }
   
     #blue-ellipse-in-services {
       position: absolute;
-      right: 65vh;
-      top: 50vh;
-      border: 1px solid black;
+      right: 75vh;
+      top: 60vh;
+      border: 1px solid red;
       width: 80px;
       height: 80px;
       display: block;
@@ -1478,22 +1478,25 @@ select {
   
     #pic-laptop {
       position: absolute;
-      margin-right: 8rem;
-      margin-top: 29rem;
+      right: 20vh;
+      top: 12vh;
+      border: 1px solid purple;
       width: 23%;
     }
   
     #pic-hands {
       position: absolute;
-      margin-right: 22rem;
-      margin-top: 30rem;
+      right: 40vh;
+      top: 22vh;
+      border: 1px solid purple;
       width: 22%;
     }
   
     #blue-ellipse-in-services {
       position: absolute;
-      margin-right: 36rem;
-      margin-top: 29rem;
+      right: 60vh;
+      top: 32vh;
+      border: 1px solid purple;
       width: 80px;
       height: 80px;
       display: block;
