@@ -207,8 +207,8 @@ select {
       order: 2;
       background-position: -2rem 2rem;
       justify-content: center;
-      background-size: 130%;
-      margin-top: -9rem;
+      background-size: 120%;
+      margin-top: -8rem;
       z-index: -1;
       width: 100%;
     }
@@ -226,7 +226,7 @@ select {
       font-size: 2em;
     }
     .intro__blurb-description {
-      font-size: 1em;
+      font-size: 0.8em;
       padding-top: 20px;
     }  
   
