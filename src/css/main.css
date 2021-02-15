@@ -1381,27 +1381,29 @@ select {
   
     #paper-planes {
       width: 700px;
-      border: 1px, solid, olive;
     }
   
     #pic-laptop {
       position: absolute;
-      margin-right: 8rem;
-      margin-top: 29rem;
+      right: 0;
+      top: 0;
+      border: 1px solid olive;
       width: 23%;
     }
   
     #pic-hands {
       position: absolute;
-      margin-right: 22rem;
-      margin-top: 30rem;
+      right: 0;
+      top: 0;
+      border: 1px solid olive;
       width: 22%;
     }
   
     #blue-ellipse-in-services {
       position: absolute;
-      margin-right: 36rem;
-      margin-top: 29rem;
+      right: 0;
+      top: 0;
+      border: 1px solid olive;
       width: 80px;
       height: 80px;
       display: block;
