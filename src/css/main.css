@@ -2642,10 +2642,9 @@ select {
   #shape-adj-ellipse {
     bottom: 0;
     left: 0;
-    margin-bottom: -1em;
-    margin-left: -5.4em;
+    margin-bottom: -1.15em;
+    margin-left: -5.55em;
     width: 40%;
-    border: 1px solid cyan;
   }
 
   #shape-ellipse-blue {
@@ -2752,9 +2751,8 @@ select {
       bottom: 0;
       left: 0;
       margin-bottom: -1.45em;
-      margin-left: -4.1em;
+      margin-left: -4.15em;
       width: 40%;
-      border: 1px solid cyan;
     }
   }
 
