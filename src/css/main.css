@@ -2642,9 +2642,10 @@ select {
   #shape-adj-ellipse {
     bottom: 0;
     left: 0;
-    margin-bottom: 0.3em;
-    margin-left: -4.95em;
+    margin-bottom: -1em;
+    margin-left: -5.5em;
     width: 40%;
+    border: 1px solid black;
   }
 
   #shape-ellipse-blue {
@@ -2745,6 +2746,14 @@ select {
   and (orientation: portrait) 
   and (-webkit-min-device-pixel-ratio: 2) {
     .home-page__contact {
+      border: 1px solid cyan;
+    }
+    #shape-adj-ellipse {
+      bottom: 0;
+      left: 0;
+      margin-bottom: -1.5em;
+      margin-left: -4.2em;
+      width: 40%;
       border: 1px solid cyan;
     }
   }
