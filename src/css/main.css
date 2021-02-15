@@ -1387,7 +1387,6 @@ select {
       position: absolute;
       right: 18vh;
       top: 28vh;
-      border: 1px solid olive;
       width: 23%;
     }
   
@@ -1395,15 +1394,13 @@ select {
       position: absolute;
       right: 50vh;
       top: 22vh;
-      border: 1px solid olive;
       width: 22%;
     }
   
     #blue-ellipse-in-services {
       position: absolute;
       right: 80vh;
-      top: 60vh;
-      border: 1px solid olive;
+      top: 56vh;
       width: 80px;
       height: 80px;
       display: block;
