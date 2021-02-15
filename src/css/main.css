@@ -1299,28 +1299,28 @@ select {
 
     #pic-laptop {
       position: absolute;
-      right: 8vh;
+      right: 10vh;
       top: 6vh;
       width: 30%;
-      border: 1px solid blue
+      border: 1px solid red
     }
   
     #pic-hands {
       position: absolute;
-      right: 18vh;
+      right: 28vh;
       top: 10vh;
       width: 25%;
-      border: 1px solid blue
+      border: 1px solid red
     }
   
     #blue-ellipse-in-services {
       position: absolute;
-      right: 50vh;
-      top: 40vh;
+      right: 55vh;
+      top: 42vh;
       width: 65px;
       height: 65px;
       display: block;
-      border: 1px solid blue
+      border: 1px solid red
     }
   
     #shape-quarter-donut {
