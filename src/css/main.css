@@ -542,6 +542,387 @@ select {
     }
   }
 
+
+  /* Company */
+.home-page__company {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-page__company-banner {
+  position: relative;
+  display: flex;
+  width: 100%;
+}
+
+.home-page__company-blurb {
+  position: relative;
+  width: 100%;
+  background-color: #FBFAFA;
+  padding: 8rem 4rem;
+}
+
+.company__blurb-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.company__blurb-content h2 {
+  display: flex;
+  flex-direction: column;
+  padding-top: 1rem;
+}
+
+.company__blurb-content .who-we-are {
+  color: rgba(47, 47, 47, 1);
+  font-weight: bold;
+  font-family: 'Montserrat';
+}
+
+.company__blurb-description {
+  padding-top: 20px;
+  width: 100%;
+  line-height: 1.6em;
+  font-size: 0.87em;
+  color: #2F2F2F;
+}
+
+.company__blurb-header--regular {
+  font-size: 1.9em;
+  color: rgba(67, 67, 67, 1);
+}
+
+.company__blurb-header--orange {
+  color: #FF5B2A;
+  font-weight: bold;
+  font-size: 1.9em;
+}
+
+#semi-circle-company {
+  position: absolute;
+  bottom: -6vh;
+  left: 0;
+  width: 190px;
+  z-index: -1;
+}
+
+.home-page__company-banner #office {
+  width: 100%;
+}
+
+#black-ellipse {
+  position: absolute;
+  top: -4vw;
+  left: 83vw;
+  width: 100px;
+  height: 100px;
+  z-index: -1;
+}
+
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {  
+  .home-page__company-banner {
+    margin-top: -16vh;
+    margin-bottom: 6vh;
+  }
+
+  .home-page__company-banner #office {
+    margin-left: 8.5vw;
+  }
+
+  #black-ellipse {
+    top: -7vw;
+    left: 79vw;
+    width: 80px;
+    height: 80px;
+  }
+
+  #semi-circle-company {
+    bottom: -5vh;
+    left: 0;
+    width: 130px;
+  }
+
+  .company__blurb-content h2 {
+    padding-top: 1rem;
+  }
+  .company__blurb-content .who-we-are { 
+    font-size: 0.85em;
+  }
+  .home-page__company-blurb {
+    padding: 4rem 2rem;
+  }
+
+  .company__blurb-header--regular {
+    font-size: 1.2em;
+  }
+  
+  .company__blurb-header--orange {
+    font-size: 1.2em;
+  }
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+  .home-page__company-banner {
+    margin-top: -16vh;
+    margin-bottom: 6vh;
+  }
+
+  .home-page__company-banner #office {
+    margin-left: 8.5vw;
+  }
+
+  #black-ellipse {
+    top: -7vw;
+    left: 79vw;
+    width: 80px;
+    height: 80px;
+  }
+
+  #semi-circle-company {
+    bottom: -5vh;
+    left: 0;
+    width: 130px;
+  }
+
+  .company__blurb-content h2 {
+    padding-top: 1rem;
+  }
+  .company__blurb-content .who-we-are { 
+    font-size: 0.9em;
+  }
+  .home-page__company-blurb {
+    padding: 4rem 2rem;
+  }
+
+  .company__blurb-header--regular {
+    font-size: 1.2em;
+  }
+  
+  .company__blurb-header--orange {
+    font-size: 1.2em;
+  }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+  .home-page__company {
+    flex-direction: row;
+    border: 1px solid green;
+  }
+  .home-page__company-banner {
+    width: 53%;
+  }
+  .home-page__company-blurb { 
+    width: 47%;
+    padding: 6rem 4rem;
+  }
+  .home-page__company-banner #office {
+    margin-left: 6vw;
+    width: 300px;
+  }
+  #black-ellipse {
+    top: -4vw;
+    left: 40vw;
+    width: 80px;
+    height: 80px;
+  }
+
+  .company__blurb-content .who-we-are {
+    font-size: 0.77em;
+  }
+
+  .company__blurb-description {
+    font-size: 0.7em;
+  }
+
+  .company__blurb-content h2 {
+    padding-top: 1.5vh;
+    font-size: 1em;
+  }
+
+  .company__blurb-header--regular {
+    font-size: 1.7em;
+  }
+
+  .company__blurb-header--orange {
+    font-size: 1.7em;
+  }
+
+  
+  #semi-circle-company {
+    position: absolute;
+    bottom: -3.5vh;
+    left: 0;
+    width: 140px;
+    z-index: -1;
+  }
+
+  #shape-blue-black {
+    position: absolute;
+    bottom: -4.8vh;
+    right: 0;
+    display: block;
+    width: 11%;
+    z-index: 2;
+  }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {  
+  .home-page__company {
+    flex-direction: row;
+    border: 1px solid black;
+  }
+  .home-page__company-banner {
+    width: 53%;
+  }
+  .home-page__company-blurb { 
+    width: 47%;
+    padding: 6rem 4rem;
+  }
+  .home-page__company-banner #office {
+    margin-left: 6vw;
+    width: 400px;
+  }
+  #black-ellipse {
+    top: -4vw;
+    left: 42vw;
+    width: 90px;
+    height: 90px;
+  }
+
+  .company__blurb-content .who-we-are {
+    font-size: 0.87em;
+  }
+
+  .company__blurb-description {
+    font-size: 0.9em;
+  }
+
+  .company__blurb-content h2 {
+    padding-top: 1.5vh;
+    font-size: 1em;
+  }
+
+  .company__blurb-header--regular {
+    font-size: 2.3em;
+  }
+
+  .company__blurb-header--orange {
+    font-size: 2.3em;
+  }
+
+  
+  #semi-circle-company {
+    position: absolute;
+    bottom: -3.5vh;
+    left: 0;
+    width: 140px;
+    z-index: -1;
+  }
+
+  #shape-blue-black {
+    position: absolute;
+    bottom: -4.7vh;
+    right: 0;
+    display: block;
+    width: 11%;
+    z-index: 2;
+  }
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+  .home-page__company {
+    flex-direction: row;
+    border: 1px solid olive;
+  }
+  .home-page__company-banner {
+    width: 55%;
+  }
+  .home-page__company-blurb { 
+    width: 45%;
+    padding: 6rem 4rem;
+  }
+  .home-page__company-banner #office {
+    margin-left: 10vw;
+    width: 450px;
+  }
+  #black-ellipse {
+    top: -3vw;
+    left: 38vw;
+    width: 110px;
+    height: 110px;
+  }
+
+  .company__blurb-content .who-we-are {
+    font-size: 1em;
+  }
+
+  .company__blurb-description {
+    font-size: 1em;
+    width: 70%;
+  }
+
+  .company__blurb-content h2 {
+    padding-top: 1.5vh;
+    font-size: 1em;
+  }
+
+  .company__blurb-header--regular {
+    font-size: 2.5em;
+  }
+
+  .company__blurb-header--orange {
+    font-size: 2.5em;
+  }
+
+  
+  #semi-circle-company {
+    position: absolute;
+    bottom: -4vh;
+    left: 4vw;
+    width: 160px;
+    z-index: -1;
+  }
+
+  #shape-blue-black {
+    position: absolute;
+    bottom: -9vh;
+    right: 0;
+    display: block;
+    width: 11%;
+    z-index: 2;
+  }
+}
+
+
+@media only screen 
+  and (min-device-width: 834px) 
+  and (max-device-width: 834px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+ 
+  }
+
+  @media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (min-resolution: 192dpi) { 
+    .home-page__company {
+      flex-direction: row;
+      margin-top: 2vh;
+      border: 1px solid purple;
+    }
+  }
+
+
 /* main header */
 .main-header {
     position: fixed;
