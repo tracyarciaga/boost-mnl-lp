@@ -510,6 +510,16 @@ select {
     }
   }
 
+  @media only screen 
+  and (min-device-width: 1112px) 
+  and (max-device-width: 1112px) 
+  and (orientation: landscape)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .home-page__intro {
+      border: 1px solid purple;
+    }
+  }
+
   @media (min-width: 992px) and (max-width: 1199.98px) 
   and (-webkit-min-device-pixel-ratio: 1) { 
     .home-page__intro {
