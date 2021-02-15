@@ -1435,6 +1435,28 @@ select {
     .home-page__services {
       border: 1px solid cyan;
     }
+    #pic-laptop {
+      position: absolute;
+      right: 0;
+      top: 0;
+      width: 30%;
+    }
+  
+    #pic-hands {
+      position: absolute;
+      right: 0;
+      top: 0;
+      width: 25%;
+    }
+  
+    #blue-ellipse-in-services {
+      position: absolute;
+      right: 0;
+      top: 0;
+      width: 65px;
+      height: 65px;
+      display: block;
+    }
   }
 
 @media screen 
