@@ -1478,25 +1478,22 @@ select {
   
     #pic-laptop {
       position: absolute;
-      right: 20vh;
-      top: 12vh;
-      border: 1px solid purple;
+      right: 24vh;
+      top: 34vh;
       width: 23%;
     }
   
     #pic-hands {
       position: absolute;
-      right: 40vh;
-      top: 22vh;
-      border: 1px solid purple;
+      right: 60vh;
+      top: 40vh;
       width: 22%;
     }
   
     #blue-ellipse-in-services {
       position: absolute;
-      right: 60vh;
-      top: 32vh;
-      border: 1px solid purple;
+      right: 100vh;
+      top: 68vh;
       width: 80px;
       height: 80px;
       display: block;
