@@ -430,8 +430,8 @@ select {
 
   #blue-ellipse {
     position: absolute;
-    margin-top: 24em;
-    margin-left: 14em;
+    margin-top: 26em;
+    margin-left: 12em;
     width: 60px;
     height: 60px;
     display: block;
@@ -489,7 +489,7 @@ select {
   #blue-ellipse {
     position: absolute;
     margin-top: 24em;
-    margin-left: 20em;
+    margin-left: 24em;
     width: 70px;
     height: 70px;
     display: block;
