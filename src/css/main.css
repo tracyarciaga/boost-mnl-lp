@@ -385,7 +385,7 @@ select {
 @media (min-width: 992px) and (max-width: 1199.98px) {  
   .home-page__intro {
     flex-direction: row;
-    margin-top: -0.5vh;
+    margin-top: 1vh;
     border: 1px solid black;
   }
 
@@ -408,7 +408,7 @@ select {
     order: 1;
     width: 50%;
     background-size: 115%;
-    background-position: top right;
+    background-position: -2em 1em;
   }
 
   .intro__blurb-header--regular {
