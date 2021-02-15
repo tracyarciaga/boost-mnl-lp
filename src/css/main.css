@@ -161,7 +161,7 @@ select {
     #blue-ellipse {
       position: absolute;
       margin-top: -6.5rem;
-      margin-left: -13rem;
+      margin-left: -18rem;
       width: 65px;
       height: 65px;
       display: block;
@@ -385,7 +385,7 @@ select {
 @media (min-width: 992px) and (max-width: 1199.98px) {  
   .home-page__intro {
     flex-direction: row;
-    margin-top: 0.5vh;
+    margin-top: -0.5vh;
     border: 1px solid black;
   }
 
@@ -431,7 +431,7 @@ select {
   #blue-ellipse {
     position: absolute;
     margin-top: 24em;
-    margin-left: 16em;
+    margin-left: 14em;
     width: 60px;
     height: 60px;
     display: block;
@@ -489,7 +489,7 @@ select {
   #blue-ellipse {
     position: absolute;
     margin-top: 24em;
-    margin-left: 16em;
+    margin-left: 20em;
     width: 70px;
     height: 70px;
     display: block;
