@@ -1300,7 +1300,7 @@ select {
     #pic-laptop {
       position: absolute;
       right: 10vh;
-      top: 10vh;
+      top: 12vh;
       width: 30%;
     }
   
@@ -1380,7 +1380,7 @@ select {
     }
   
     #paper-planes {
-      width: 900px;
+      width: 700px;
     }
   
     #pic-laptop {
