@@ -499,7 +499,24 @@ select {
   }
 }
 
-  
+
+@media only screen 
+  and (min-device-width: 834px) 
+  and (max-device-width: 834px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .home-page__intro {
+      border: 1px solid cyan;
+    }
+  }
+
+  @media (min-width: 992px) and (max-width: 1199.98px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+    .home-page__intro {
+      border: 1px solid pink;
+    }
+  }
+
 /* main header */
 .main-header {
     position: fixed;
