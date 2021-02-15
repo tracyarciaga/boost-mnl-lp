@@ -1300,27 +1300,27 @@ select {
     #pic-laptop {
       position: absolute;
       right: 10vh;
-      top: 6vh;
+      top: 10vh;
       width: 30%;
-      border: 1px solid red
+      border: 1px solid blue
     }
   
     #pic-hands {
       position: absolute;
-      right: 28vh;
+      right: 34vh;
       top: 10vh;
       width: 25%;
-      border: 1px solid red
+      border: 1px solid blue
     }
   
     #blue-ellipse-in-services {
       position: absolute;
-      right: 55vh;
+      right: 58vh;
       top: 42vh;
       width: 65px;
       height: 65px;
       display: block;
-      border: 1px solid red
+      border: 1px solid blue
     }
   
     #shape-quarter-donut {
