@@ -195,11 +195,11 @@ select {
     }
 
     .home-page__banner--mobile-only > img {
-      margin-top: 3rem;
+      margin-top: 2.5rem;
       margin-left: 12rem;
       top:0;
       width: 65%;
-      height: 300px;
+      height: 380px;
     }
   
     .home-page__blurb {
