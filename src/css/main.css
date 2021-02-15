@@ -430,8 +430,8 @@ select {
 
   #blue-ellipse {
     position: absolute;
-    margin-top: 26em;
-    margin-left: 12em;
+    margin-top: 28em;
+    margin-left: 10em;
     width: 60px;
     height: 60px;
     display: block;
@@ -509,72 +509,16 @@ select {
     .home-page__intro {
       border: 1px solid cyan;
     }
- 
-  }
 
-  @media only screen 
-  and (min-device-width: 1112px) 
-  and (max-device-width: 1112px) 
-  and (orientation: landscape)
-  and (-webkit-min-device-pixel-ratio: 2) {
-    .home-page__intro {
-      flex-direction: row;
-      margin-top: -4.5em;
-      border: 1px solid orange;
-    }
-  
-    .home-page__banner { 
-      display: flex;
-      order: 2;
-      width: 50%;
-      margin-top: 3em;
-    }
-  
-    .home-page__banner > img {
-      top:0;
-    }
-  
-    .home-page__banner--mobile-only {
-      display: none;
-    }
-  
-    .home-page__blurb { 
-      display: flex;
-      order: 1;
-      width: 50%;
-      background-size: 112%;
-      background-position: -12vh -15vh;
-    }
-  
-    .intro__blurb-header--regular {
-      font-size: 2.5em;
-    }
-    .intro__blurb-header--orange {
-      font-size: 2.5em;
-    }
-  
-    .intro__blurb-description {
-      font-size: 1em;
-    } 
-  
-    .home-page__blurb-content {
-      margin-top: 9em;
-      margin-left: 4em;
-      width: 100%;
-    }
-  
     #blue-ellipse {
       position: absolute;
-      margin-top: 28em;
-      margin-left: 30em;
-      width: 70px;
-      height: 70px;
+      margin-top: 18em;
+      margin-left: 12em;
+      width: 50px;
+      height: 50px;
       display: block;
     }
-    .intro__blurb-learn {
-      padding-top: 3rem;
-      width: 150px;
-    }
+ 
   }
 
   @media screen 
