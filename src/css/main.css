@@ -1302,25 +1302,22 @@ select {
       right: 10vh;
       top: 10vh;
       width: 30%;
-      border: 1px solid blue
     }
   
     #pic-hands {
       position: absolute;
-      right: 34vh;
+      right: 38vh;
       top: 10vh;
       width: 25%;
-      border: 1px solid blue
     }
   
     #blue-ellipse-in-services {
       position: absolute;
-      right: 58vh;
+      right: 60vh;
       top: 42vh;
       width: 65px;
       height: 65px;
       display: block;
-      border: 1px solid blue
     }
   
     #shape-quarter-donut {
