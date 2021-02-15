@@ -1302,6 +1302,7 @@ select {
       right: 0;
       top: 0;
       width: 30%;
+      border: 1px solid black
     }
   
     #pic-hands {
@@ -1309,6 +1310,7 @@ select {
       right: 0;
       top: 0;
       width: 25%;
+      border: 1px solid black
     }
   
     #blue-ellipse-in-services {
@@ -1318,6 +1320,7 @@ select {
       width: 65px;
       height: 65px;
       display: block;
+      border: 1px solid black
     }
   
     #shape-quarter-donut {
