@@ -181,7 +181,6 @@ select {
     .home-page__intro {
       display: flex;
       flex-direction: column;
-      border: 1px solid red;
     }
   
     .home-page__banner { 
