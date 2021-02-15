@@ -543,7 +543,7 @@ select {
   }
 
 
-  /* Company */
+  /* who-we-are Company */
 .home-page__company {
   display: flex;
   flex-direction: column;
@@ -925,6 +925,528 @@ select {
     }
   }
 
+  /* what we do */
+  #what-we-do {
+    background-color: #F8F7F7;
+  }
+  
+  .home-page__services {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  
+  .home-page__services-banner {
+    position: relative;
+    display: flex;
+    width: 100%;
+  }
+  
+  .home-page__services-blurb {
+    position: relative;
+    width: 100%;
+  }
+  
+  .services__blurb-content {
+    display: flex;
+    flex-direction: column;
+    padding: 0 4rem;
+  }
+  
+  .services__blurb-content h2 {
+    display: flex;
+    flex-direction: column;
+    padding-top: 2rem;
+  }
+  
+  .services__blurb-content .what-we-do {
+    color: rgba(47, 47, 47, 1);
+    font-weight: bold;
+    font-family: 'Montserrat';
+  }
+  
+  .services__blurb-description {
+    padding-top: 20px;
+    width: 100%;
+    line-height: 1.6em;
+    font-size: 0.87em;
+    color: #2F2F2F;
+  }
+  
+  .services__blurb-header--regular {
+    font-size: 1.5em;
+    color: rgba(67, 67, 67, 1);
+  }
+  
+  .services__blurb-header--orange {
+    color: #FF5B2A;
+    font-weight: bold;
+    font-size: 1.5em;
+  }
+
+  #shape-quarter-donut {
+    display: none;
+  }
+
+  #shape-pink-donut {
+    position: absolute;
+    margin-bottom: -4rem;
+    margin-right: -15.5rem;
+    width: 75px;
+    display: block;
+  }
+
+  #paper-planes {
+    width: 105%;
+    margin-left: -1rem;
+  }
+  #pic-laptop {
+    position: absolute;
+    margin-left: 11rem;
+    margin-top: 12rem;
+    width: 32%;
+  }
+
+  #pic-hands {
+    position: absolute;
+    margin-left: 4rem;
+    margin-top: 15rem;
+    width: 25%;
+  }
+
+   /* // Extra small devices (portrait phones, less than 576px) */
+   @media (max-width: 575.98px) { 
+    .home-page__services-banner {
+      order: 1;
+    }
+    .home-page__services-blurb { 
+      order: 2
+    }
+    #shape-quarter-donut {
+      display: none;
+    }
+  
+    #shape-pink-donut {
+      position: absolute;
+      margin-bottom: -5rem;
+      margin-right: -16.7rem;
+      width: 75px;
+      display: block;
+    }
+    
+    .paper-planes {
+      overflow: hidden;
+    }
+    #paper-planes {
+      width: 110%;
+      margin-left: -2rem;
+    }
+    #pic-laptop {
+      position: absolute;
+      margin-left: 11rem;
+      margin-top: 12rem;
+      width: 32%;
+    }
+  
+    #pic-hands {
+      position: absolute;
+      margin-left: 4rem;
+      margin-top: 15rem;
+      width: 25%;
+    }
+  
+  
+    #blue-ellipse-in-services {
+      position: absolute;
+      left: -2rem; 
+      margin-top: 13rem;
+      width: 75px;
+      height: 75px;
+      display: block;
+    }
+    .services__blurb-content {
+      padding-top: 6rem;
+      padding-left: 2rem;
+      padding-bottom: 4rem;
+    }
+    
+    .services__blurb-content .what-we-do {
+      font-size: 0.85em;
+    }
+    
+    .services__blurb-header--regular {
+      font-size: 1.2em;
+    }
+    
+    .services__blurb-header--orange {
+      font-size: 1.2em;
+    }
+  }
+
+  /* // Small devices (landscape phones, 576px and up) */
+  @media (min-width: 576px) and (max-width: 767.98px) { 
+    .home-page__services-banner {
+      order: 1;
+    }
+    .home-page__services-blurb { 
+      order: 2
+    }
+    #shape-quarter-donut {
+      display: none;
+    }
+  
+    #shape-pink-donut {
+      position: absolute;
+      margin-bottom: -12rem;
+      margin-right: -27rem;
+      width: 75px;
+      display: block;
+    }
+    
+    .paper-planes {
+      overflow: hidden;
+    }
+    #paper-planes {
+      width: 110%;
+      margin-left: -3rem;
+    }
+    #pic-laptop {
+      position: absolute;
+      margin-left: 16rem;
+      margin-top: 18rem;
+      width: 30%;
+    }
+  
+    #pic-hands {
+      position: absolute;
+      margin-left: 6rem;
+      margin-top: 20rem;
+      width: 25%;
+    }
+  
+  
+    #blue-ellipse-in-services {
+      position: absolute;
+      left: 1rem; 
+      margin-top: 19rem;
+      width: 70px;
+      height: 70px;
+      display: block;
+    }
+    .services__blurb-content {
+      padding-top: 6rem;
+      padding-left: 2rem;
+      padding-bottom: 4rem;
+    }
+    
+    .services__blurb-content .what-we-do {
+      font-size: 0.85em;
+    }
+    
+    .services__blurb-header--regular {
+      font-size: 1.2em;
+    }
+    
+    .services__blurb-header--orange {
+      font-size: 1.2em;
+    }
+  }
+
+  /* // Medium devices (tablets, 768px and up) */
+  @media (min-width: 768px) and (max-width: 991.98px) { 
+    .home-page__services {
+      flex-direction: row;
+      justify-content: flex-end;
+      padding-bottom: 4rem;
+      border: 1px solid green;
+    }
+  
+    .home-page__services-banner {
+      width: 55%;
+      justify-content: flex-end;
+    }
+    
+    .home-page__services-blurb { 
+      width: 45%;
+    }
+        
+    .services__blurb-content {
+      padding: 0 3rem;
+    }
+
+    .services__blurb-content {
+      width: 100%;
+    }
+    .services__blurb-content h2 {
+      padding-top: 1.5vh;
+      font-size: 1em;
+    }
+    
+    .services__blurb-content .what-we-do {
+      font-size: 0.77em;
+    }
+    
+    .services__blurb-description {
+      font-size: 0.7em;
+    }
+    
+    .services__blurb-header--regular {
+      font-size: 1.7em;
+    }
+
+    .services__blurb-header--orange {
+      font-size: 1.7em;
+    }
+  
+    #paper-planes {
+      width: 450px;
+    }
+
+    #pic-laptop {
+      position: absolute;
+      margin-right: 5rem;
+      margin-top: 12rem;
+      width: 30%;
+    }
+  
+    #pic-hands {
+      position: absolute;
+      margin-right: 14rem;
+      margin-top: 14rem;
+      width: 25%;
+    }
+  
+    #blue-ellipse-in-services {
+      position: absolute;
+      margin-right: 20rem;
+      margin-top: 13rem;
+      width: 55px;
+      height: 55px;
+      display: block;
+    }
+  
+    #shape-quarter-donut {
+      position: absolute;
+      bottom: 0;
+      left:0;
+      width: 10%;
+      display: block;
+    }
+  
+    #shape-pink-donut {
+      position: absolute;
+      bottom: 0;
+      right:0;
+      margin-bottom: -2.5rem;
+      margin-right: 2.5rem;
+      width: 80px;
+      display: block;
+      z-index: 2;
+    }
+  }
+
+  /* // Large devices (desktops, 992px and up) */
+  @media (min-width: 992px) and (max-width: 1199.98px) {  
+    .home-page__services {
+      flex-direction: row;
+      justify-content: flex-end;
+      padding-bottom: 6rem;
+      border: 1px solid black;
+    }
+  
+    .home-page__services-banner {
+      width: 55%;
+      justify-content: flex-end;
+    }
+    
+    .home-page__services-blurb { 
+      width: 45%;
+    }
+        
+    .services__blurb-content {
+      padding: 0 3rem;
+    }
+
+    .services__blurb-content {
+      width: 100%;
+    }
+    .services__blurb-content h2 {
+      padding-top: 1.5vh;
+      font-size: 1em;
+    }
+    
+    .services__blurb-content .what-we-do {
+      font-size: 0.87em;
+    }
+    
+    .services__blurb-description {
+      font-size: 0.9em;
+    }
+    
+    .services__blurb-header--regular {
+      font-size: 2.3em;
+    }
+
+    .services__blurb-header--orange {
+      font-size: 2.3em;
+    }
+  
+    #paper-planes {
+      width: 600px;
+    }
+
+    #pic-laptop {
+      position: absolute;
+      margin-right: 5rem;
+      margin-top: 18rem;
+      width: 30%;
+    }
+  
+    #pic-hands {
+      position: absolute;
+      margin-right: 16rem;
+      margin-top: 20rem;
+      width: 25%;
+    }
+  
+    #blue-ellipse-in-services {
+      position: absolute;
+      margin-right: 24rem;
+      margin-top: 18rem;
+      width: 65px;
+      height: 65px;
+      display: block;
+    }
+  
+    #shape-quarter-donut {
+      position: absolute;
+      bottom: 0;
+      left:0;
+      width: 10%;
+      display: block;
+    }
+  
+    #shape-pink-donut {
+      position: absolute;
+      bottom: 0;
+      right:0;
+      margin-bottom: -2.5rem;
+      margin-right: 2.5rem;
+      width: 80px;
+      display: block;
+      z-index: 2;
+    }
+  }
+
+  /* // Extra large devices (large desktops, 1200px and up) */
+  @media (min-width: 1200px) { 
+    .home-page__services {
+      flex-direction: row;
+      justify-content: flex-end;
+      padding-bottom: 8rem;
+      border: 1px solid olive;
+    }
+  
+    .home-page__services-banner {
+      width: 60%;
+      justify-content: flex-end;
+    }
+    
+    .home-page__services-blurb { 
+      width: 40%;
+    }
+  
+    .services__blurb-content {
+      width: 100%;
+    }
+  
+    .services__blurb-content .what-we-do {
+      font-size: 1em;
+    }
+  
+    .services__blurb-description {
+      font-size: 0.9em;
+      width: 80%;
+    }
+    
+    .services__blurb-header--regular {
+      font-size: 1.8em;
+    }
+    
+    .services__blurb-header--orange {
+      font-size: 1.8em;
+    }
+  
+    #paper-planes {
+      width: 900px;
+    }
+  
+    #pic-laptop {
+      position: absolute;
+      margin-right: 8rem;
+      margin-top: 29rem;
+      width: 23%;
+    }
+  
+    #pic-hands {
+      position: absolute;
+      margin-right: 22rem;
+      margin-top: 30rem;
+      width: 22%;
+    }
+  
+    #blue-ellipse-in-services {
+      position: absolute;
+      margin-right: 36rem;
+      margin-top: 29rem;
+      width: 80px;
+      height: 80px;
+      display: block;
+    }
+  
+    #shape-quarter-donut {
+      position: absolute;
+      bottom: 0;
+      left:0;
+      width: 10%;
+      display: block;
+    }
+  
+    #shape-pink-donut {
+      position: absolute;
+      bottom: 0;
+      right:0;
+      margin-bottom: -2.5rem;
+      margin-right: 2.5rem;
+      width: 100px;
+      display: block;
+      z-index: 2;
+    }
+  }
+
+
+@media only screen 
+  and (min-device-width: 834px) 
+  and (max-device-width: 834px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .home-page__services {
+      border: 1px solid cyan;
+    }
+  }
+
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (min-resolution: 192dpi) { 
+    .home-page__services {
+      border: 1px solid purple;
+      margin-top: -2em;
+    }
+  }
 
 /* main header */
 .main-header {
