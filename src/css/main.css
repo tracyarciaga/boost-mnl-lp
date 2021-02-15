@@ -529,7 +529,7 @@ select {
   and (min-resolution: 192dpi) { 
     .home-page__intro {
       flex-direction: row;
-      margin-top: -4.5em;
+      margin-top: -2.5em;
       border: 1px solid purple;
     }
     #blue-ellipse {
