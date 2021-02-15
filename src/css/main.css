@@ -1381,6 +1381,7 @@ select {
   
     #paper-planes {
       width: 700px;
+      border: 1px, solid, olive;
     }
   
     #pic-laptop {
@@ -1467,6 +1468,33 @@ select {
     .home-page__services {
       border: 1px solid purple;
       margin-top: -2em;
+    }
+
+    #paper-planes {
+      width: 900px;
+    }
+  
+    #pic-laptop {
+      position: absolute;
+      margin-right: 8rem;
+      margin-top: 29rem;
+      width: 23%;
+    }
+  
+    #pic-hands {
+      position: absolute;
+      margin-right: 22rem;
+      margin-top: 30rem;
+      width: 22%;
+    }
+  
+    #blue-ellipse-in-services {
+      position: absolute;
+      margin-right: 36rem;
+      margin-top: 29rem;
+      width: 80px;
+      height: 80px;
+      display: block;
     }
   }
 
