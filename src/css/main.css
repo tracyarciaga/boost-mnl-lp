@@ -161,9 +161,9 @@ select {
     #blue-ellipse {
       position: absolute;
       margin-top: -6.5rem;
-      margin-left: -10rem;
-      width: 65px;
-      height: 65px;
+      margin-left: -8rem;
+      width: 60px;
+      height: 60px;
       display: block;
     }
   
