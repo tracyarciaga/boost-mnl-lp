@@ -441,8 +441,8 @@ select {
 @media (min-width: 1200px) { 
   .home-page__intro {
     flex-direction: row;
-    margin-top: -4.5em;
-    border: 1px solid orange;
+    margin-top: -2.5em;
+    border: 1px solid olive;
   }
 
   .home-page__banner { 
@@ -516,14 +516,72 @@ select {
   and (orientation: landscape)
   and (-webkit-min-device-pixel-ratio: 2) {
     .home-page__intro {
-      border: 1px solid purple;
+      flex-direction: row;
+      margin-top: -4.5em;
+      border: 1px solid orange;
+    }
+  
+    .home-page__banner { 
+      display: flex;
+      order: 2;
+      width: 50%;
+      margin-top: 3em;
+    }
+  
+    .home-page__banner > img {
+      top:0;
+    }
+  
+    .home-page__banner--mobile-only {
+      display: none;
+    }
+  
+    .home-page__blurb { 
+      display: flex;
+      order: 1;
+      width: 50%;
+      background-size: 112%;
+      background-position: -12vh -15vh;
+    }
+  
+    .intro__blurb-header--regular {
+      font-size: 2.5em;
+    }
+    .intro__blurb-header--orange {
+      font-size: 2.5em;
+    }
+  
+    .intro__blurb-description {
+      font-size: 1em;
+    } 
+  
+    .home-page__blurb-content {
+      margin-top: 9em;
+      margin-left: 4em;
+      width: 100%;
+    }
+  
+    #blue-ellipse {
+      position: absolute;
+      margin-top: 28em;
+      margin-left: 30em;
+      width: 70px;
+      height: 70px;
+      display: block;
+    }
+    .intro__blurb-learn {
+      padding-top: 3rem;
+      width: 150px;
     }
   }
 
-  @media (min-width: 992px) and (max-width: 1199.98px) 
-  and (-webkit-min-device-pixel-ratio: 1) { 
-    .home-page__intro {
-      border: 1px solid pink;
+  @media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (min-resolution: 192dpi) { 
+    .main-header__contact {
+      padding: 0;
     }
   }
 
