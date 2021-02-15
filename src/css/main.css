@@ -267,7 +267,6 @@ select {
   .home-page__intro {
     display: flex;
     flex-direction: column;
-    border: 1px solid blue;
   }
 
   .home-page__banner { 
@@ -328,7 +327,6 @@ select {
   .home-page__intro {
     flex-direction: row;
     margin-top: -2.5em;
-    border: 1px solid green;
   }
 
   .home-page__banner { 
@@ -386,7 +384,6 @@ select {
   .home-page__intro {
     flex-direction: row;
     margin-top: 1vh;
-    border: 1px solid black;
   }
 
   .home-page__banner { 
@@ -443,7 +440,7 @@ select {
   .home-page__intro {
     flex-direction: row;
     margin-top: 2vh;
-    border: 1px solid olive;
+    
   }
 
   .home-page__banner { 
@@ -507,7 +504,6 @@ select {
   and (orientation: portrait) 
   and (-webkit-min-device-pixel-ratio: 2) {
     .home-page__intro {
-      border: 1px solid cyan;
       margin-top: -2em;
     }
 
@@ -530,7 +526,6 @@ select {
     .home-page__intro {
       flex-direction: row;
       margin-top: -2.5em;
-      border: 1px solid purple;
     }
     #blue-ellipse {
       position: absolute;
@@ -711,7 +706,7 @@ select {
 @media (min-width: 768px) and (max-width: 991.98px) { 
   .home-page__company {
     flex-direction: row;
-    border: 1px solid green;
+    
   }
   .home-page__company-banner {
     width: 53%;
@@ -775,7 +770,6 @@ select {
 @media (min-width: 992px) and (max-width: 1199.98px) {  
   .home-page__company {
     flex-direction: row;
-    border: 1px solid black;
   }
   .home-page__company-banner {
     width: 53%;
@@ -839,7 +833,7 @@ select {
 @media (min-width: 1200px) { 
   .home-page__company {
     flex-direction: row;
-    border: 1px solid olive;
+    
   }
   .home-page__company-banner {
     width: 55%;
@@ -908,7 +902,7 @@ select {
   and (-webkit-min-device-pixel-ratio: 2) {
     .home-page__company {
       flex-direction: row;
-      border: 1px solid cyan;
+      
     }
  
   }
@@ -921,7 +915,7 @@ select {
     .home-page__company {
       flex-direction: row;
       margin-top: 2vh;
-      border: 1px solid purple;
+      
     }
   }
 
@@ -1160,7 +1154,7 @@ select {
       flex-direction: row;
       justify-content: flex-end;
       padding-bottom: 4rem;
-      border: 1px solid green;
+      
     }
   
     .home-page__services-banner {
@@ -1253,7 +1247,6 @@ select {
       flex-direction: row;
       justify-content: flex-end;
       padding-bottom: 6rem;
-      border: 1px solid black;
     }
   
     .home-page__services-banner {
@@ -1346,7 +1339,7 @@ select {
       flex-direction: row;
       justify-content: flex-end;
       padding-bottom: 8rem;
-      border: 1px solid olive;
+      
     }
   
     .home-page__services-banner {
@@ -1433,7 +1426,7 @@ select {
   and (orientation: portrait) 
   and (-webkit-min-device-pixel-ratio: 2) {
     .home-page__services {
-      border: 1px solid cyan;
+      
     }
     #pic-laptop {
       position: absolute;
@@ -1465,7 +1458,7 @@ select {
   and (-webkit-min-device-pixel-ratio: 2)
   and (min-resolution: 192dpi) { 
     .home-page__services {
-      border: 1px solid purple;
+      
       margin-top: -2em;
     }
 
@@ -1752,7 +1745,7 @@ select {
 
     .home-page__product {
       flex-direction: row;
-      border: 1px solid green;
+      
     }
   
     .home-page__product-banner {
@@ -1832,7 +1825,6 @@ select {
 
     .home-page__product {
       flex-direction: row;
-      border: 1px solid black;
     }
   
     .home-page__product-banner {
@@ -1924,7 +1916,7 @@ select {
   
     .home-page__product {
       flex-direction: row;
-      border: 1px solid olive;
+      
     }
   
     .home-page__product-banner {
@@ -2509,7 +2501,7 @@ select {
 @media (min-width: 768px) and (max-width: 991.98px) {  
   .home-page__contact {
     flex-direction: row;
-    border: 1px solid green;
+    
   }
 
   .home-page__contact-banner {
@@ -2584,7 +2576,6 @@ select {
 @media (min-width: 992px) and (max-width: 1199.98px) {  
   .home-page__contact {
     flex-direction: row;
-    border: 1px solid black;
   }
 
   .home-page__contact-banner {
@@ -2659,7 +2650,7 @@ select {
 @media (min-width: 1200px) {  
   .home-page__contact {
     flex-direction: row;
-    border: 1px solid olive;
+    
   }
 
   .home-page__contact-banner {
@@ -2745,7 +2736,7 @@ select {
   and (orientation: portrait) 
   and (-webkit-min-device-pixel-ratio: 2) {
     .home-page__contact {
-      border: 1px solid cyan;
+      
     }
     #shape-adj-ellipse {
       bottom: 0;
@@ -2762,7 +2753,7 @@ select {
   and (-webkit-min-device-pixel-ratio: 2)
   and (min-resolution: 192dpi) { 
     .home-page__contact {
-      border: 1px solid purple;
+      
     }
   }
 /* main header */
