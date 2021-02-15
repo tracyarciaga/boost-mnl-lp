@@ -580,8 +580,10 @@ select {
   and (max-device-width: 1600px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (min-resolution: 192dpi) { 
-    .main-header__contact {
-      padding: 0;
+    .home-page__intro {
+      flex-direction: row;
+      margin-top: -4.5em;
+      border: 1px solid purple;
     }
   }
 
