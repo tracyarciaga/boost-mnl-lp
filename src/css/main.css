@@ -161,7 +161,7 @@ select {
     #blue-ellipse {
       position: absolute;
       margin-top: -6.5rem;
-      margin-left: -8rem;
+      margin-left: -12rem;
       width: 60px;
       height: 60px;
       display: block;
@@ -195,7 +195,7 @@ select {
     }
 
     .home-page__banner--mobile-only > img {
-      margin-top: 2.5rem;
+      margin-top: 3.5rem;
       margin-left: 12rem;
       top:0;
       width: 65%;
